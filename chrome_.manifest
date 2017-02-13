@@ -1,36 +1,36 @@
-content    console2    chrome/content/console2/
+content    console2    jar:chrome/console2.jar!/content/console2/
 
 #Gecko 2.0 component registration.
 component  {1280606b-2510-4fe0-97ef-9b5a22eafe81}  components/console2-clhandler.js
 contract   @zeniko/console2-clh;1  {1280606b-2510-4fe0-97ef-9b5a22eafe81}
 category   command-line-handler b-console2   @zeniko/console2-clh;1
 
-locale    console2    en-US    chrome/locale/en-US/console2/
-locale    console2    en-GB    chrome/locale/en-GB/console2/
-locale    console2    bg-BG    chrome/locale/bg-BG/console2/
-locale    console2    cs-CZ    chrome/locale/cs-CZ/console2/
-locale    console2    de       chrome/locale/de/console2/
-locale    console2    es-ES    chrome/locale/es-ES/console2/
-locale    console2    fi       chrome/locale/fi/console2/
-locale    console2    fr       chrome/locale/fr/console2/
-locale    console2    he-IL    chrome/locale/he-IL/console2/
-locale    console2    hu-HU    chrome/locale/hu-HU/console2/
-locale    console2    it       chrome/locale/it/console2/
-locale    console2    ja-JP    chrome/locale/ja-JP/console2/
-locale    console2    ko-KR    chrome/locale/ko-KR/console2/
-locale    console2    lt-LT    chrome/locale/lt-LT/console2/
-locale    console2    nl       chrome/locale/nl/console2/
-locale    console2    pl       chrome/locale/pl/console2/
-locale    console2    pt-BR    chrome/locale/pt-BR/console2/
-locale    console2    ru-RU    chrome/locale/ru-RU/console2/
-locale    console2    sk-SK    chrome/locale/sk-SK/console2/
-locale    console2    sr       chrome/locale/sr/console2/
-locale    console2    sv-SE    chrome/locale/sv-SE/console2/
-locale    console2    tr       chrome/locale/tr/console2/
-locale    console2    zh-CN    chrome/locale/zh-CN/console2/
-locale    console2    zh-TW    chrome/locale/zh-TW/console2/
+locale    console2    en-US    jar:chrome/console2.jar!/locale/en-US/console2/
+locale    console2    en-GB    jar:chrome/console2.jar!/locale/en-GB/console2/
+locale    console2    bg-BG    jar:chrome/console2.jar!/locale/bg-BG/console2/
+locale    console2    cs-CZ    jar:chrome/console2.jar!/locale/cs-CZ/console2/
+locale    console2    de       jar:chrome/console2.jar!/locale/de/console2/
+locale    console2    es-ES    jar:chrome/console2.jar!/locale/es-ES/console2/
+locale    console2    fi       jar:chrome/console2.jar!/locale/fi/console2/
+locale    console2    fr       jar:chrome/console2.jar!/locale/fr/console2/
+locale    console2    he-IL    jar:chrome/console2.jar!/locale/he-IL/console2/
+locale    console2    hu-HU    jar:chrome/console2.jar!/locale/hu-HU/console2/
+locale    console2    it       jar:chrome/console2.jar!/locale/it/console2/
+locale    console2    ja-JP    jar:chrome/console2.jar!/locale/ja-JP/console2/
+locale    console2    ko-KR    jar:chrome/console2.jar!/locale/ko-KR/console2/
+locale    console2    lt-LT    jar:chrome/console2.jar!/locale/lt-LT/console2/
+locale    console2    nl       jar:chrome/console2.jar!/locale/nl/console2/
+locale    console2    pl       jar:chrome/console2.jar!/locale/pl/console2/
+locale    console2    pt-BR    jar:chrome/console2.jar!/locale/pt-BR/console2/
+locale    console2    ru-RU    jar:chrome/console2.jar!/locale/ru-RU/console2/
+locale    console2    sk-SK    jar:chrome/console2.jar!/locale/sk-SK/console2/
+locale    console2    sr       jar:chrome/console2.jar!/locale/sr/console2/
+locale    console2    sv-SE    jar:chrome/console2.jar!/locale/sv-SE/console2/
+locale    console2    tr       jar:chrome/console2.jar!/locale/tr/console2/
+locale    console2    zh-CN    jar:chrome/console2.jar!/locale/zh-CN/console2/
+locale    console2    zh-TW    jar:chrome/console2.jar!/locale/zh-TW/console2/
 
-skin    console2    classic/1.0    chrome/skin/classic/console2/
+skin    console2    classic/1.0    jar:chrome/console2.jar!/skin/classic/console2/
 
 overlay    chrome://browser/content/browser.xul    chrome://console2/content/overlay.xul
 

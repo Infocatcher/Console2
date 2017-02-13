@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "Конзола за Грешки - Блокиране на Домейни">
+<!ENTITY close.label "Затвори">
+<!ENTITY close.accesskey "Т">
+<!ENTITY remove.label "Премахни запис">
+<!ENTITY remove.accesskey "П">
+<!ENTITY uri.description "Тук можете да опишете кои домейни разрешавате да изписват съобщения в конзолата, и кои не. Въведете име на домейн (или използвайте * за всички) и натиснете Разрешен или Забранен:">
+<!ENTITY allow.label "Разрешен">
+<!ENTITY allow.accesskey "Р">
+<!ENTITY block.label "Забранен">
+<!ENTITY block.accesskey "З">
+<!ENTITY col.domain.label "Домейн">
+<!ENTITY col.status.label "Положение">

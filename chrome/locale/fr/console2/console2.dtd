@@ -1,0 +1,125 @@
+<!ENTITY console.title "Console d'erreurs">
+<!ENTITY console.accesskey "C">
+<!ENTITY console.tooltiptext "Ouvrir la console d'erreurs">
+<!ENTITY type.label "Type">
+<!ENTITY type.accesskey "y">
+<!ENTITY all.label "Tous">
+<!ENTITY all.accesskey "T">
+<!ENTITY errors.label "Erreurs">
+<!ENTITY errors.accesskey "E">
+<!ENTITY warnings.label "Avertissements">
+<!ENTITY warnings.accesskey "A">
+<!ENTITY messages.label "Messages">
+<!ENTITY messages.accesskey "M">
+<!ENTITY mixed.label "Mélangés">
+<!ENTITY lang.label "Langage">
+<!ENTITY lang.accesskey "L">
+<!ENTITY lang.all.label "Tous">
+<!ENTITY lang.all.accesskey "T">
+<!ENTITY lang.js.label "JS">
+<!ENTITY lang.js.accesskey "J">
+<!ENTITY lang.css.label "CSS">
+<!ENTITY lang.css.accesskey "S">
+<!ENTITY lang.xml.label "XML">
+<!ENTITY lang.xml.accesskey "X">
+<!ENTITY ctx.accesskey "o">
+<!ENTITY ctx.all.label "Partout">
+<!ENTITY ctx.all.accesskey "P">
+<!ENTITY ctx.chr.label "Chrome">
+<!ENTITY ctx.chr.accesskey "h">
+<!ENTITY ctx.cnt.label "Content">
+<!ENTITY ctx.cnt.accesskey "n">
+<!ENTITY tools.label "Options">
+<!ENTITY tools.accesskey "p">
+<!ENTITY dupes.label "Cacher les entrées en double">
+<!ENTITY dupes.accesskey "C">
+<!ENTITY strict.label "Rapporter les Avertissements Stricts">
+<!ENTITY strict.accesskey "A">
+<!ENTITY logCSS.label "Rapporter les erreurs CSS">
+<!ENTITY logCSS.accesskey "e">
+<!ENTITY logExcept.label "Rapporter toutes les exceptions JS">
+<!ENTITY logExcept.accesskey "J">
+<!ENTITY onTop.label "Toujours en Avant-plan">
+<!ENTITY onTop.accesskey "T">
+<!ENTITY noteFocus.label "Focus sur le Rapport">
+<!ENTITY noteFocus.accesskey "F">
+<!ENTITY domainlst.label "Utiliser le blocage de domaines…">
+<!ENTITY domainlst.accesskey "U">
+<!ENTITY custom1.label "Personnaliser la barre d'outils…">
+<!ENTITY custom1.accesskey "b">
+<!ENTITY clearAll.label "Vider la console">
+<!ENTITY clearAll.accesskey "d">
+<!ENTITY clear.label "Vider">
+<!ENTITY clear.accesskey "V">
+<!ENTITY search.label "Chercher">
+<!ENTITY search.accesskey "C">
+<!ENTITY evaluate.label "Évaluer">
+<!ENTITY evaluate.accesskey "r">
+<!ENTITY all2.accesskey "T">
+<!ENTITY errors2.accesskey "E">
+<!ENTITY warnings2.accesskey "A">
+<!ENTITY messages2.accesskey "M">
+<!ENTITY lang.js2.accesskey "J">
+<!ENTITY lang.css2.accesskey "S">
+<!ENTITY lang.xml2.accesskey "X">
+<!ENTITY ctx.chr2.accesskey "h">
+<!ENTITY ctx.cnt2.accesskey "n">
+<!ENTITY all3.accesskey "A">
+<!ENTITY errors3.accesskey "u">
+<!ENTITY warnings3.accesskey "i">
+<!ENTITY messages3.accesskey "M">
+<!ENTITY clear3.accesskey "e">
+<!ENTITY lang3.accesskey ":">
+<!ENTITY lang.js3.accesskey "&lang.js2.accesskey;">
+<!ENTITY lang.css3.accesskey "&lang.css2.accesskey;">
+<!ENTITY lang.xml3.accesskey "&lang.xml2.accesskey;">
+<!ENTITY ctx.chr3.accesskey "o">
+<!ENTITY ctx.cnt3.accesskey "n">
+<!ENTITY evaluate3.accesskey "l">
+<!ENTITY tools3.accesskey "p">
+<!ENTITY ctx3.accesskey "Q">
+<!ENTITY sortFirst.label "Classer du premier au dernier">
+<!ENTITY sortFirst.accesskey "p">
+<!ENTITY sortLast.label "Classer du dernier au premier">
+<!ENTITY sortLast.accesskey "d">
+<!ENTITY ignoreCmd.label "Ignorer les messages">
+<!ENTITY ignoreCmd.accesskey "m">
+<!ENTITY blacklist.label "Bloquer le domaine">
+<!ENTITY blacklist2.label "Ignorer le domaine">
+<!ENTITY blacklist.accesskey "d">
+<!ENTITY copyCmd.label "Copier">
+<!ENTITY copyCmd.accesskey "i">
+<!ENTITY copyCmd.commandkey "C">
+<!ENTITY selCmd.label "Sélectionner tout">
+<!ENTITY selCmd.accesskey "t">
+<!ENTITY selCmd.commandkey "A">
+<!ENTITY menuBar.tooltip "Barre de menu">
+<!ENTITY toolbarsCmd.label "Montrer/cacher">
+<!ENTITY toolbarsCmd.accesskey "C">
+<!ENTITY modeBar.label "Mode barre d'outils">
+<!ENTITY modeBar.accesskey "M">
+<!ENTITY extBar.label "Seconde barre d'outils">
+<!ENTITY extBar.accesskey "S">
+<!ENTITY evalBar.label "Barre d'évaluation">
+<!ENTITY evalBar.accesskey "B">
+<!ENTITY customize.label "Personnaliser…">
+<!ENTITY customize.accesskey "P">
+<!ENTITY closeCmd.commandkey "w">
+<!ENTITY focus1.commandkey "l">
+<!ENTITY focus2.commandkey "d">
+<!ENTITY search.commandkey "k">
+<!ENTITY dupes.tooltip "Nombre de doublons">
+<!ENTITY errLine.label "Ligne :">
+<!ENTITY all.tooltip "Montrer toutes les entrées">
+<!ENTITY errors.tooltip "Montrer/cacher toutes les erreurs">
+<!ENTITY warnings.tooltip "Montrer/cacher tous les avertissements">
+<!ENTITY messages.tooltip "Montrer/cacher tous les messages">
+<!ENTITY lang.js.tooltip "Montrer/cacher toutes les entrées en relation avec JavaScript">
+<!ENTITY lang.css.tooltip "Montrer/cacher toutes les entrées en relation avec les feuilles de style">
+<!ENTITY lang.xml.tooltip "Montrer/cacher toutes les entrées en relation avec HTML/XML/XUL">
+<!ENTITY ctx.chr.tooltip "Montrer/cacher toutes les entrées en relation avec les applications/extensions">
+<!ENTITY ctx.cnt.tooltip "Montrer/cacher toutes les entrées en relation avec les sites Web/courriels">
+<!ENTITY clear.tooltip "Supprimer de façon définitive toutes les entrées">
+<!ENTITY copyCmd.tooltip "Copier toutes les entrées sélectionnées">
+<!ENTITY evaluate.tooltip "Évaluer l'expression JavaScript entrée">
+<!ENTITY showAll.label "Tout afficher">

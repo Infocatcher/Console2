@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "Конзола за грешке - блокатор домена">
+<!ENTITY close.label "Затвори">
+<!ENTITY close.accesskey "З">
+<!ENTITY remove.label "Уклони унос">
+<!ENTITY remove.accesskey "У">
+<!ENTITY uri.description "Овде можете да одредите којим доменима ћете дозволити, а којима забранити слање порука у конзолу. Унесите назив домена (или * за све домене), па изаберите Дозволи или Блокирај:">
+<!ENTITY allow.label "Дозволи">
+<!ENTITY allow.accesskey "Д">
+<!ENTITY block.label "Блокирај">
+<!ENTITY block.accesskey "Б">
+<!ENTITY col.domain.label "Домен">
+<!ENTITY col.status.label "Статус">

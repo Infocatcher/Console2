@@ -1,0 +1,125 @@
+<!ENTITY console.title "錯誤主控台">
+<!ENTITY console.accesskey "E">
+<!ENTITY console.tooltiptext "顯示錯誤主控台">
+<!ENTITY type.label "類型">
+<!ENTITY type.accesskey "y">
+<!ENTITY all.label "全部">
+<!ENTITY all.accesskey "A">
+<!ENTITY errors.label "錯誤">
+<!ENTITY errors.accesskey "E">
+<!ENTITY warnings.label "警告">
+<!ENTITY warnings.accesskey "W">
+<!ENTITY messages.label "訊息">
+<!ENTITY messages.accesskey "M">
+<!ENTITY mixed.label "混合">
+<!ENTITY lang.label "程式語言">
+<!ENTITY lang.accesskey "L">
+<!ENTITY lang.all.label "全部">
+<!ENTITY lang.all.accesskey "A">
+<!ENTITY lang.js.label "JS">
+<!ENTITY lang.js.accesskey "J">
+<!ENTITY lang.css.label "CSS">
+<!ENTITY lang.css.accesskey "C">
+<!ENTITY lang.xml.label "XML">
+<!ENTITY lang.xml.accesskey "X">
+<!ENTITY ctx.accesskey "n">
+<!ENTITY ctx.all.label "任何地方">
+<!ENTITY ctx.all.accesskey "A">
+<!ENTITY ctx.chr.label "Chrome">
+<!ENTITY ctx.chr.accesskey "C">
+<!ENTITY ctx.cnt.label "Content">
+<!ENTITY ctx.cnt.accesskey "o">
+<!ENTITY tools.label "選項">
+<!ENTITY tools.accesskey "O">
+<!ENTITY dupes.label "隱藏重複項目">
+<!ENTITY dupes.accesskey "D">
+<!ENTITY strict.label "報告嚴格的警告">
+<!ENTITY strict.accesskey "S">
+<!ENTITY logCSS.label "報告 CSS 的錯誤">
+<!ENTITY logCSS.accesskey "e">
+<!ENTITY logExcept.label "報告所有 JS 的例外">
+<!ENTITY logExcept.accesskey "J">
+<!ENTITY onTop.label "總是在最上方">
+<!ENTITY onTop.accesskey "A">
+<!ENTITY noteFocus.label "把焦點放在報告上">
+<!ENTITY noteFocus.accesskey "R">
+<!ENTITY domainlst.label "管理阻擋的網域…">
+<!ENTITY domainlst.accesskey "B">
+<!ENTITY custom1.label "自訂工具列…">
+<!ENTITY custom1.accesskey "t">
+<!ENTITY clearAll.label "清除主控台">
+<!ENTITY clearAll.accesskey "C">
+<!ENTITY clear.label "清除">
+<!ENTITY clear.accesskey "C">
+<!ENTITY search.label "搜尋">
+<!ENTITY search.accesskey "S">
+<!ENTITY evaluate.label "評估">
+<!ENTITY evaluate.accesskey "v">
+<!ENTITY all2.accesskey "A">
+<!ENTITY errors2.accesskey "E">
+<!ENTITY warnings2.accesskey "W">
+<!ENTITY messages2.accesskey "M">
+<!ENTITY lang.js2.accesskey "J">
+<!ENTITY lang.css2.accesskey "Z">
+<!ENTITY lang.xml2.accesskey "X">
+<!ENTITY ctx.chr2.accesskey "h">
+<!ENTITY ctx.cnt2.accesskey "t">
+<!ENTITY all3.accesskey "A">
+<!ENTITY errors3.accesskey "r">
+<!ENTITY warnings3.accesskey "g">
+<!ENTITY messages3.accesskey "M">
+<!ENTITY clear3.accesskey "l">
+<!ENTITY lang3.accesskey ":">
+<!ENTITY lang.js3.accesskey "&lang.js2.accesskey;">
+<!ENTITY lang.css3.accesskey "&lang.css2.accesskey;">
+<!ENTITY lang.xml3.accesskey "&lang.xml2.accesskey;">
+<!ENTITY ctx.chr3.accesskey "o">
+<!ENTITY ctx.cnt3.accesskey "n">
+<!ENTITY evaluate3.accesskey "u">
+<!ENTITY tools3.accesskey "p">
+<!ENTITY ctx3.accesskey "Q">
+<!ENTITY sortFirst.label "先 &gt; 後排序">
+<!ENTITY sortFirst.accesskey "f">
+<!ENTITY sortLast.label "後 &gt; 先排序">
+<!ENTITY sortLast.accesskey "l">
+<!ENTITY ignoreCmd.label "忽略訊息">
+<!ENTITY ignoreCmd.accesskey "M">
+<!ENTITY blacklist.label "阻擋網域">
+<!ENTITY blacklist2.label "忽略網域">
+<!ENTITY blacklist.accesskey "D">
+<!ENTITY copyCmd.label "複製">
+<!ENTITY copyCmd.accesskey "C">
+<!ENTITY copyCmd.commandkey "C">
+<!ENTITY selCmd.label "全選">
+<!ENTITY selCmd.accesskey "A">
+<!ENTITY selCmd.commandkey "A">
+<!ENTITY menuBar.tooltip "主選單">
+<!ENTITY toolbarsCmd.label "顯示／隱藏">
+<!ENTITY toolbarsCmd.accesskey "w">
+<!ENTITY modeBar.label "模式工具列">
+<!ENTITY modeBar.accesskey "M">
+<!ENTITY extBar.label "第二工具列">
+<!ENTITY extBar.accesskey "S">
+<!ENTITY evalBar.label "評估工具列">
+<!ENTITY evalBar.accesskey "E">
+<!ENTITY customize.label "自訂…">
+<!ENTITY customize.accesskey "C">
+<!ENTITY closeCmd.commandkey "w">
+<!ENTITY focus1.commandkey "l">
+<!ENTITY focus2.commandkey "d">
+<!ENTITY search.commandkey "k">
+<!ENTITY dupes.tooltip "# 個重複的項目">
+<!ENTITY errLine.label "列:">
+<!ENTITY all.tooltip "顯示／隱藏全部項目">
+<!ENTITY errors.tooltip "顯示／隱藏所有錯誤">
+<!ENTITY warnings.tooltip "所有警告">
+<!ENTITY messages.tooltip "顯示／隱藏所有訊息">
+<!ENTITY lang.js.tooltip "顯示／隱藏 所有與 JavaScript 相關的項目">
+<!ENTITY lang.css.tooltip "顯示／隱藏 所有與 Stylesheet 相關的項目">
+<!ENTITY lang.xml.tooltip "顯示／隱藏 所有與 HTML/XML/XUL 相關的項目">
+<!ENTITY ctx.chr.tooltip "顯示／隱藏 所有與 應用程式／擴充套件 相關的項目">
+<!ENTITY ctx.cnt.tooltip "顯示／隱藏 所有與 Website/Mail 相關的項目">
+<!ENTITY clear.tooltip "永久地刪除所有項目">
+<!ENTITY copyCmd.tooltip "複製所有選取的項目">
+<!ENTITY evaluate.tooltip "評估輸入的 JavaScript 表達式">
+<!ENTITY showAll.label "全部顯示">

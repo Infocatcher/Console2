@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://console2/locale/console2.dtd">
+
+<overlay id="console2Overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <ko-pane id="workspace_right_area">
+    <browser type="ko-widget"
+             id="console2Viewbox"
+             label="&console.title;"
+             src="chrome://console2/content/console2.xul"/>
+  </ko-pane>
+
+</overlay>

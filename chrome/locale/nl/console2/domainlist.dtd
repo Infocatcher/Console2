@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "Foutconsole - Domein blokkeerder">
+<!ENTITY close.label "Sluiten">
+<!ENTITY close.accesskey "S">
+<!ENTITY remove.label "Domein verwijderen">
+<!ENTITY remove.accesskey "D">
+<!ENTITY uri.description "U kunt aangeven welke domeinen toestemming hebben om meldingen naar de console te sturen. Typ een domeinnaam (of * voor alle domeinen) en klik vervolgens op Toestaan of Blokkeren:">
+<!ENTITY allow.label "Toestaan">
+<!ENTITY allow.accesskey "T">
+<!ENTITY block.label "Blokkeren">
+<!ENTITY block.accesskey "B">
+<!ENTITY col.domain.label "Domein">
+<!ENTITY col.status.label "Status">

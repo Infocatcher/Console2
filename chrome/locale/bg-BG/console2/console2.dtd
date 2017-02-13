@@ -1,0 +1,125 @@
+<!ENTITY console.title "Конзола за Грешки">
+<!ENTITY console.accesskey "Г">
+<!ENTITY console.tooltiptext "Показване на Конзолата за Грешки">
+<!ENTITY type.label "Вид">
+<!ENTITY type.accesskey "д">
+<!ENTITY all.label "Всички">
+<!ENTITY all.accesskey "В">
+<!ENTITY errors.label "Грешки">
+<!ENTITY errors.accesskey "Г">
+<!ENTITY warnings.label "Предупреждения">
+<!ENTITY warnings.accesskey "П">
+<!ENTITY messages.label "Съобщения">
+<!ENTITY messages.accesskey "С">
+<!ENTITY mixed.label "Смесено">
+<!ENTITY lang.label "Език">
+<!ENTITY lang.accesskey "Е">
+<!ENTITY lang.all.label "Всички">
+<!ENTITY lang.all.accesskey "В">
+<!ENTITY lang.js.label "JS">
+<!ENTITY lang.js.accesskey "J">
+<!ENTITY lang.css.label "CSS">
+<!ENTITY lang.css.accesskey "S">
+<!ENTITY lang.xml.label "XML">
+<!ENTITY lang.xml.accesskey "X">
+<!ENTITY ctx.accesskey "Н">
+<!ENTITY ctx.all.label "Навсякъде">
+<!ENTITY ctx.all.accesskey "Н">
+<!ENTITY ctx.chr.label "Chrome">
+<!ENTITY ctx.chr.accesskey "h">
+<!ENTITY ctx.cnt.label "Content">
+<!ENTITY ctx.cnt.accesskey "o">
+<!ENTITY tools.label "Опции">
+<!ENTITY tools.accesskey "О">
+<!ENTITY dupes.label "Скрий повторенията">
+<!ENTITY dupes.accesskey "к">
+<!ENTITY strict.label "Рапортувай стриктно">
+<!ENTITY strict.accesskey "Р">
+<!ENTITY logCSS.label "Рапортувай CSS грешките">
+<!ENTITY logCSS.accesskey "п">
+<!ENTITY logExcept.label "Рапортувай JS Exception грешките">
+<!ENTITY logExcept.accesskey "о">
+<!ENTITY onTop.label "Винаги отгоре">
+<!ENTITY onTop.accesskey "В">
+<!ENTITY noteFocus.label "Фокусиране при рапорт">
+<!ENTITY noteFocus.accesskey "Ф">
+<!ENTITY domainlst.label "Управление на Игнорирани Домейни...">
+<!ENTITY domainlst.accesskey "Д">
+<!ENTITY custom1.label "Пренареждане на Тулбара...">
+<!ENTITY custom1.accesskey "Т">
+<!ENTITY clearAll.label "Изчистване на конзолата">
+<!ENTITY clearAll.accesskey "И">
+<!ENTITY clear.label "Изчистване">
+<!ENTITY clear.accesskey "И">
+<!ENTITY search.label "Търсене">
+<!ENTITY search.accesskey "Т">
+<!ENTITY evaluate.label "Изчисли/изпълни">
+<!ENTITY evaluate.accesskey "ч">
+<!ENTITY all2.accesskey "В">
+<!ENTITY errors2.accesskey "Г">
+<!ENTITY warnings2.accesskey "П">
+<!ENTITY messages2.accesskey "С">
+<!ENTITY lang.js2.accesskey "J">
+<!ENTITY lang.css2.accesskey "S">
+<!ENTITY lang.xml2.accesskey "X">
+<!ENTITY ctx.chr2.accesskey "h">
+<!ENTITY ctx.cnt2.accesskey "o">
+<!ENTITY all3.accesskey "В">
+<!ENTITY errors3.accesskey "Г">
+<!ENTITY warnings3.accesskey "П">
+<!ENTITY messages3.accesskey "С">
+<!ENTITY clear3.accesskey "И">
+<!ENTITY lang3.accesskey "Е">
+<!ENTITY lang.js3.accesskey "J">
+<!ENTITY lang.css3.accesskey "S">
+<!ENTITY lang.xml3.accesskey "X">
+<!ENTITY ctx.chr3.accesskey "h">
+<!ENTITY ctx.cnt3.accesskey "о">
+<!ENTITY evaluate3.accesskey "ч">
+<!ENTITY tools3.accesskey "О">
+<!ENTITY ctx3.accesskey "Н">
+<!ENTITY sortFirst.label "Подреждане Първи &gt; Последен">
+<!ENTITY sortFirst.accesskey "ъ">
+<!ENTITY sortLast.label "Подреждане Последен &gt; Първи">
+<!ENTITY sortLast.accesskey "с">
+<!ENTITY ignoreCmd.label "Игнорирай съобщенията">
+<!ENTITY ignoreCmd.accesskey "й">
+<!ENTITY blacklist.label "Игнорирай домейна">
+<!ENTITY blacklist2.label "Игнорирай домейна">
+<!ENTITY blacklist.accesskey "д">
+<!ENTITY copyCmd.label "Копиране">
+<!ENTITY copyCmd.accesskey "К">
+<!ENTITY copyCmd.commandkey "C">
+<!ENTITY selCmd.label "Избор на всичко">
+<!ENTITY selCmd.accesskey "И">
+<!ENTITY selCmd.commandkey "A">
+<!ENTITY menuBar.tooltip "Меню">
+<!ENTITY toolbarsCmd.label "Скрий/Покажи">
+<!ENTITY toolbarsCmd.accesskey "С">
+<!ENTITY modeBar.label "Режим тулбар">
+<!ENTITY modeBar.accesskey "Р">
+<!ENTITY extBar.label "Допълнителен тулбар">
+<!ENTITY extBar.accesskey "Д">
+<!ENTITY evalBar.label "Изчислителен тулбар">
+<!ENTITY evalBar.accesskey "И">
+<!ENTITY customize.label "Потребителски...">
+<!ENTITY customize.accesskey "П">
+<!ENTITY closeCmd.commandkey "w">
+<!ENTITY focus1.commandkey "ф">
+<!ENTITY focus2.commandkey "о">
+<!ENTITY search.commandkey "т">
+<!ENTITY dupes.tooltip "брой повторения">
+<!ENTITY errLine.label "Ред:">
+<!ENTITY all.tooltip "Скриване/Показване на Всички записи">
+<!ENTITY errors.tooltip "Скриване/Показване на Грешките">
+<!ENTITY warnings.tooltip "Скриване/Показване на Предупрежденията">
+<!ENTITY messages.tooltip "Скриване/Показване на Съобщенията">
+<!ENTITY lang.js.tooltip "Скриване/Показване на JavaScript записите">
+<!ENTITY lang.css.tooltip "Скриване/Показване на CSS/Stylesheet записите">
+<!ENTITY lang.xml.tooltip "Скриване/Показване на HTML/XML/XUL записите">
+<!ENTITY ctx.chr.tooltip "Скриване/Показване на записите за Приложението и Разширенията">
+<!ENTITY ctx.cnt.tooltip "Скриване/Показване на записите за Страниците и Пощата">
+<!ENTITY clear.tooltip "Изтриване на записите завинаги">
+<!ENTITY copyCmd.tooltip "Копиране на всички избрани записи">
+<!ENTITY evaluate.tooltip "Изчисляване/изпълняване на въведения JavaScript израз">
+<!ENTITY showAll.label "Покажи всички">

@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "Virhekonsoli - Verkkotunnusten estot">
+<!ENTITY close.label "Sulje">
+<!ENTITY close.accesskey "U">
+<!ENTITY remove.label "Poista rivi">
+<!ENTITY remove.accesskey "P">
+<!ENTITY uri.description "Täällä voit määritellä verkkotunnukset joiden viestien lähettämisen konsolille haluat sallia tai estää. Anna verkkotunnus (tai *) ja napauta Salli tai Estä:">
+<!ENTITY allow.label "Salli">
+<!ENTITY allow.accesskey "S">
+<!ENTITY block.label "Estä">
+<!ENTITY block.accesskey "E">
+<!ENTITY col.domain.label "Verkkotunnus">
+<!ENTITY col.status.label "Tila">

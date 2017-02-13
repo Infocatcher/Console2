@@ -1,0 +1,125 @@
+<!ENTITY console.title "Felkonsoll">
+<!ENTITY console.accesskey "F">
+<!ENTITY console.tooltiptext "Visa felkonsoll">
+<!ENTITY type.label "Typ">
+<!ENTITY type.accesskey "Y">
+<!ENTITY all.label "Alla">
+<!ENTITY all.accesskey "A">
+<!ENTITY errors.label "Fel">
+<!ENTITY errors.accesskey "l">
+<!ENTITY warnings.label "Varningar">
+<!ENTITY warnings.accesskey "V">
+<!ENTITY messages.label "Meddelanden">
+<!ENTITY messages.accesskey "M">
+<!ENTITY mixed.label "Blandade">
+<!ENTITY lang.label "Språk">
+<!ENTITY lang.accesskey "P">
+<!ENTITY lang.all.label "Alla">
+<!ENTITY lang.all.accesskey "A">
+<!ENTITY lang.js.label "JS">
+<!ENTITY lang.js.accesskey "J">
+<!ENTITY lang.css.label "CSS">
+<!ENTITY lang.css.accesskey "C">
+<!ENTITY lang.xml.label "XML">
+<!ENTITY lang.xml.accesskey "X">
+<!ENTITY ctx.accesskey "n">
+<!ENTITY ctx.all.label "Överallt">
+<!ENTITY ctx.all.accesskey "Ö">
+<!ENTITY ctx.chr.label "Chrome">
+<!ENTITY ctx.chr.accesskey "C">
+<!ENTITY ctx.cnt.label "Innehåll">
+<!ENTITY ctx.cnt.accesskey "I">
+<!ENTITY tools.label "Inställningar">
+<!ENTITY tools.accesskey "G">
+<!ENTITY dupes.label "Göm dubletter">
+<!ENTITY dupes.accesskey "B">
+<!ENTITY strict.label "Rapportera strikta varningar">
+<!ENTITY strict.accesskey "K">
+<!ENTITY logCSS.label "Rapportera CSS fel">
+<!ENTITY logCSS.accesskey "C">
+<!ENTITY logExcept.label "Rapportera alla JS undantag">
+<!ENTITY logExcept.accesskey "J">
+<!ENTITY onTop.label "Alltid överst">
+<!ENTITY onTop.accesskey "Ö">
+<!ENTITY noteFocus.label "Fokusera vid aktivering">
+<!ENTITY noteFocus.accesskey "K">
+<!ENTITY domainlst.label "Hantera domänblockering...">
+<!ENTITY domainlst.accesskey "D">
+<!ENTITY custom1.label "Anpassa verktygsfält...">
+<!ENTITY custom1.accesskey "Y">
+<!ENTITY clearAll.label "Rensa konsollen">
+<!ENTITY clearAll.accesskey "R">
+<!ENTITY clear.label "Töm">
+<!ENTITY clear.accesskey "T">
+<!ENTITY search.label "Sök">
+<!ENTITY search.accesskey "Ö">
+<!ENTITY evaluate.label "Utvärdera">
+<!ENTITY evaluate.accesskey "U">
+<!ENTITY all2.accesskey "A">
+<!ENTITY errors2.accesskey "E">
+<!ENTITY warnings2.accesskey "V">
+<!ENTITY messages2.accesskey "M">
+<!ENTITY lang.js2.accesskey "J">
+<!ENTITY lang.css2.accesskey "Z">
+<!ENTITY lang.xml2.accesskey "X">
+<!ENTITY ctx.chr2.accesskey "h">
+<!ENTITY ctx.cnt2.accesskey "t">
+<!ENTITY all3.accesskey "A">
+<!ENTITY errors3.accesskey "r">
+<!ENTITY warnings3.accesskey "g">
+<!ENTITY messages3.accesskey "M">
+<!ENTITY clear3.accesskey "l">
+<!ENTITY lang3.accesskey ":">
+<!ENTITY lang.js3.accesskey "&lang.js3.accesskey;">
+<!ENTITY lang.css3.accesskey "&lang.css3.accesskey;">
+<!ENTITY lang.xml3.accesskey "&lang.xml3.accesskey;">
+<!ENTITY ctx.chr3.accesskey "o">
+<!ENTITY ctx.cnt3.accesskey "n">
+<!ENTITY evaluate3.accesskey "u">
+<!ENTITY tools3.accesskey "p">
+<!ENTITY ctx3.accesskey "Q">
+<!ENTITY sortFirst.label "Sortering första &gt; sista">
+<!ENTITY sortFirst.accesskey "f">
+<!ENTITY sortLast.label "Sortering sista &gt; första">
+<!ENTITY sortLast.accesskey "s">
+<!ENTITY ignoreCmd.label "Ignorera meddelanden">
+<!ENTITY ignoreCmd.accesskey "M">
+<!ENTITY blacklist.label "Blockera domäner">
+<!ENTITY blacklist2.label "Ignorera domäner">
+<!ENTITY blacklist.accesskey "D">
+<!ENTITY copyCmd.label "Kopiera">
+<!ENTITY copyCmd.accesskey "C">
+<!ENTITY copyCmd.commandkey "C">
+<!ENTITY selCmd.label "Markera alla">
+<!ENTITY selCmd.accesskey "A">
+<!ENTITY selCmd.commandkey "A">
+<!ENTITY menuBar.tooltip "Meny">
+<!ENTITY toolbarsCmd.label "Visa/dölj">
+<!ENTITY toolbarsCmd.accesskey "V">
+<!ENTITY modeBar.label "Lägesverktygsfältet">
+<!ENTITY modeBar.accesskey "L">
+<!ENTITY extBar.label "Sekundär">
+<!ENTITY extBar.accesskey "A">
+<!ENTITY evalBar.label "Utvärdera">
+<!ENTITY evalBar.accesskey "E">
+<!ENTITY customize.label "Anpassa...">
+<!ENTITY customize.accesskey "A">
+<!ENTITY closeCmd.commandkey "w">
+<!ENTITY focus1.commandkey "l">
+<!ENTITY focus2.commandkey "d">
+<!ENTITY search.commandkey "k">
+<!ENTITY dupes.tooltip "antal dubletter">
+<!ENTITY errLine.label "Rad:">
+<!ENTITY all.tooltip "Växla visning för alla poster">
+<!ENTITY errors.tooltip "Visa/dölj alla fel">
+<!ENTITY warnings.tooltip "Visa/dölj alla varningar">
+<!ENTITY messages.tooltip "Visa/dölj alla meddelanden">
+<!ENTITY lang.js.tooltip "Visa/dölj alla JavaScript-relaterad poster">
+<!ENTITY lang.css.tooltip "Visa/dölj alla poster för stilmallar">
+<!ENTITY lang.xml.tooltip "Visa/dölj alla poster för HTML/XML/XUL">
+<!ENTITY ctx.chr.tooltip "Visa/dölj alla poster för Application/Extension">
+<!ENTITY ctx.cnt.tooltip "Visa/dölj alla poster för webbplatser/e-post">
+<!ENTITY clear.tooltip "Ta bort alla poster permanent">
+<!ENTITY copyCmd.tooltip "Kopiera markerade poster">
+<!ENTITY evaluate.tooltip "Utvärdera JavaScript uttryck">
+<!ENTITY showAll.label "Visa alla">

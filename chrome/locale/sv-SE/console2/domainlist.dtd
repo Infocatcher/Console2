@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "Felkonsoll - domänblockering">
+<!ENTITY close.label "Stäng">
+<!ENTITY close.accesskey "Ä">
+<!ENTITY remove.label "Ta bort">
+<!ENTITY remove.accesskey "T">
+<!ENTITY uri.description "Ange vilka domäner som ska kunna skicka meddelanden till konsollen. Ange ett domännamn (eller * för alla domäner) och klicka sedan på Tillåt eller Blockera.">
+<!ENTITY allow.label "Tillåt">
+<!ENTITY allow.accesskey "Å">
+<!ENTITY block.label "Blockera">
+<!ENTITY block.accesskey "B">
+<!ENTITY col.domain.label "Domän">
+<!ENTITY col.status.label "Status">

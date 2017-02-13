@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "Hata konsolu - Domain Engeleyici">
+<!ENTITY close.label "Kapat">
+<!ENTITY close.accesskey "K">
+<!ENTITY remove.label "Girişi Kaldır">
+<!ENTITY remove.accesskey "r">
+<!ENTITY uri.description "Burada hangi domain(ler)in konsola mesaj girişi gönderebileceğine izin verebilir veya engelleyebilirsiniz. Herhangi bir domain (veya hepsi için *) girin ve İzinli ya da Engelle diyerek belirtin:">
+<!ENTITY allow.label "İzinli">
+<!ENTITY allow.accesskey "z">
+<!ENTITY block.label "Engelle">
+<!ENTITY block.accesskey "E">
+<!ENTITY col.domain.label "Domain">
+<!ENTITY col.status.label "Durum">

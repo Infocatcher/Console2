@@ -1,0 +1,125 @@
+<!ENTITY console.title "Hibakonzol">
+<!ENTITY console.accesskey "H">
+<!ENTITY console.tooltiptext "Hibakonzol megjelenítése">
+<!ENTITY type.label "Típus">
+<!ENTITY type.accesskey "u">
+<!ENTITY all.label "Mind">
+<!ENTITY all.accesskey "M">
+<!ENTITY errors.label "Hiba">
+<!ENTITY errors.accesskey "H">
+<!ENTITY warnings.label "Figyelmeztetés">
+<!ENTITY warnings.accesskey "F">
+<!ENTITY messages.label "Üzenet">
+<!ENTITY messages.accesskey "z">
+<!ENTITY mixed.label "Vegyes">
+<!ENTITY lang.label "Nyelv">
+<!ENTITY lang.accesskey "N">
+<!ENTITY lang.all.label "Mind">
+<!ENTITY lang.all.accesskey "M">
+<!ENTITY lang.js.label "JS">
+<!ENTITY lang.js.accesskey "J">
+<!ENTITY lang.css.label "CSS">
+<!ENTITY lang.css.accesskey "C">
+<!ENTITY lang.xml.label "XML">
+<!ENTITY lang.xml.accesskey "X">
+<!ENTITY ctx.accesskey "o">
+<!ENTITY ctx.all.label "Bárhol">
+<!ENTITY ctx.all.accesskey "o">
+<!ENTITY ctx.chr.label "Chrome">
+<!ENTITY ctx.chr.accesskey "e">
+<!ENTITY ctx.cnt.label "Tartalom">
+<!ENTITY ctx.cnt.accesskey "a">
+<!ENTITY tools.label "Beállítások">
+<!ENTITY tools.accesskey "B">
+<!ENTITY dupes.label "Azonosak elrejtése">
+<!ENTITY dupes.accesskey "A">
+<!ENTITY strict.label "Pontos figyelmeztetések jelentése">
+<!ENTITY strict.accesskey "P">
+<!ENTITY logCSS.label "CSS hibák jelentése">
+<!ENTITY logCSS.accesskey "C">
+<!ENTITY logExcept.label "Összes JS kivétel jelentése">
+<!ENTITY logExcept.accesskey "J">
+<!ENTITY onTop.label "Mindig legfelül">
+<!ENTITY onTop.accesskey "M">
+<!ENTITY noteFocus.label "Előtérbe hozás jelentésnél">
+<!ENTITY noteFocus.accesskey "R">
+<!ENTITY domainlst.label "Tartománytiltás kezelő...">
+<!ENTITY domainlst.accesskey "T">
+<!ENTITY custom1.label "Eszköztár testreszabása...">
+<!ENTITY custom1.accesskey "z">
+<!ENTITY clearAll.label "Konzol törlése">
+<!ENTITY clearAll.accesskey "t">
+<!ENTITY clear.label "Törlés">
+<!ENTITY clear.accesskey "T">
+<!ENTITY search.label "Keresés">
+<!ENTITY search.accesskey "K">
+<!ENTITY evaluate.label "Kiértékelés">
+<!ENTITY evaluate.accesskey "l">
+<!ENTITY all2.accesskey "M">
+<!ENTITY errors2.accesskey "H">
+<!ENTITY warnings2.accesskey "F">
+<!ENTITY messages2.accesskey "z">
+<!ENTITY lang.js2.accesskey "J">
+<!ENTITY lang.css2.accesskey "C">
+<!ENTITY lang.xml2.accesskey "X">
+<!ENTITY ctx.chr2.accesskey "e">
+<!ENTITY ctx.cnt2.accesskey "a">
+<!ENTITY all3.accesskey "M">
+<!ENTITY errors3.accesskey "H">
+<!ENTITY warnings3.accesskey "F">
+<!ENTITY messages3.accesskey "z">
+<!ENTITY clear3.accesskey "l">
+<!ENTITY lang3.accesskey ":">
+<!ENTITY lang.js3.accesskey "&lang.js2.accesskey;">
+<!ENTITY lang.css3.accesskey "&lang.css2.accesskey;">
+<!ENTITY lang.xml3.accesskey "&lang.xml2.accesskey;">
+<!ENTITY ctx.chr3.accesskey "e">
+<!ENTITY ctx.cnt3.accesskey "a">
+<!ENTITY evaluate3.accesskey "K">
+<!ENTITY tools3.accesskey "B">
+<!ENTITY ctx3.accesskey "n">
+<!ENTITY sortFirst.label "Rendezés: Első &gt; Utolsó">
+<!ENTITY sortFirst.accesskey "E">
+<!ENTITY sortLast.label "Rendezés: Utolsó &gt; Első">
+<!ENTITY sortLast.accesskey "U">
+<!ENTITY ignoreCmd.label "Üzenet figyelmen kívül hagyása">
+<!ENTITY ignoreCmd.accesskey "f">
+<!ENTITY blacklist.label "Tartomány tiltása">
+<!ENTITY blacklist2.label "Tartomány ignorálása">
+<!ENTITY blacklist.accesskey "T">
+<!ENTITY copyCmd.label "Másolás">
+<!ENTITY copyCmd.accesskey "M">
+<!ENTITY copyCmd.commandkey "M">
+<!ENTITY selCmd.label "Mindent kijelöl">
+<!ENTITY selCmd.accesskey "i">
+<!ENTITY selCmd.commandkey "i">
+<!ENTITY menuBar.tooltip "Menü sáv">
+<!ENTITY toolbarsCmd.label "Megjelenítés/Elrejtés">
+<!ENTITY toolbarsCmd.accesskey "E">
+<!ENTITY modeBar.label "Mód Eszköztár">
+<!ENTITY modeBar.accesskey "M">
+<!ENTITY extBar.label "Második Eszköztár">
+<!ENTITY extBar.accesskey "s">
+<!ENTITY evalBar.label "Kiértékelés Eszköztár">
+<!ENTITY evalBar.accesskey "K">
+<!ENTITY customize.label "Testreszabás...">
+<!ENTITY customize.accesskey "T">
+<!ENTITY closeCmd.commandkey "w">
+<!ENTITY focus1.commandkey "l">
+<!ENTITY focus2.commandkey "d">
+<!ENTITY search.commandkey "k">
+<!ENTITY dupes.tooltip "# azonos bejegyzés">
+<!ENTITY errLine.label "Sor:">
+<!ENTITY all.tooltip "Mindegyik bejegyzés megjelenítése">
+<!ENTITY errors.tooltip "Hibák megjelenítése/elrejtése">
+<!ENTITY warnings.tooltip "Figyelmeztetések megjelenítése/elrejtése">
+<!ENTITY messages.tooltip "Üzenetek megjelenítése/elrejtése">
+<!ENTITY lang.js.tooltip "JS bejegyzések  megjelenítése/elrejtése">
+<!ENTITY lang.css.tooltip "CSS bejegyzések megjelenítése/elrejtése">
+<!ENTITY lang.xml.tooltip "HTML/XML/XUL bejegyzések megjelenítése/elrejtése">
+<!ENTITY ctx.chr.tooltip "Alkalmazés/Kiterjesztés bejegyzések megjelenítése/elrejtése">
+<!ENTITY ctx.cnt.tooltip "Weboldal/email bejegyzések megjelenítése/elrejtése">
+<!ENTITY clear.tooltip "Minden bejegyzés végleges törlése">
+<!ENTITY copyCmd.tooltip "Kijelölt bejegyzések másolása">
+<!ENTITY evaluate.tooltip "A kijelölt JavaScript kiértékelése">
+<!ENTITY showAll.label "Mindegyik megjelenítése">

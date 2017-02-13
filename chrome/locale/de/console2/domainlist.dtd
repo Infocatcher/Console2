@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "Fehlerkonsole - Domain-Blocker">
+<!ENTITY close.label "Schließen">
+<!ENTITY close.accesskey "S">
+<!ENTITY remove.label "Eintrag löschen">
+<!ENTITY remove.accesskey "L">
+<!ENTITY uri.description "Hier können Sie festlegen, welche Domains Einträge in der Fehlerkonsole erzeugen dürfen. Geben Sie eine Domain ein (oder * für alle Domains) und klicken Sie auf Erlauben oder Blockieren:">
+<!ENTITY allow.label "Erlauben">
+<!ENTITY allow.accesskey "E">
+<!ENTITY block.label "Blockieren">
+<!ENTITY block.accesskey "B">
+<!ENTITY col.domain.label "Domain">
+<!ENTITY col.status.label "Status">

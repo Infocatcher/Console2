@@ -1,0 +1,125 @@
+<!ENTITY console.title "מסוף שגיאות">
+<!ENTITY console.accesskey "מ">
+<!ENTITY console.tooltiptext "הצג את מסוף השגיאות">
+<!ENTITY type.label "סוג">
+<!ENTITY type.accesskey "ס">
+<!ENTITY all.label "הכל">
+<!ENTITY all.accesskey "ה">
+<!ENTITY errors.label "שגיאות">
+<!ENTITY errors.accesskey "ש">
+<!ENTITY warnings.label "אזהרות">
+<!ENTITY warnings.accesskey "א">
+<!ENTITY messages.label "הודעות">
+<!ENTITY messages.accesskey "ד">
+<!ENTITY mixed.label "מעורב">
+<!ENTITY lang.label "שפה">
+<!ENTITY lang.accesskey "פ">
+<!ENTITY lang.all.label "הכל">
+<!ENTITY lang.all.accesskey "ה">
+<!ENTITY lang.js.label "JS">
+<!ENTITY lang.js.accesskey "J">
+<!ENTITY lang.css.label "CSS">
+<!ENTITY lang.css.accesskey "C">
+<!ENTITY lang.xml.label "XML">
+<!ENTITY lang.xml.accesskey "X">
+<!ENTITY ctx.accesskey "ב">
+<!ENTITY ctx.all.label "בכל מקום">
+<!ENTITY ctx.all.accesskey "ב">
+<!ENTITY ctx.chr.label "סגנון">
+<!ENTITY ctx.chr.accesskey "ס">
+<!ENTITY ctx.cnt.label "תוכן">
+<!ENTITY ctx.cnt.accesskey "ת">
+<!ENTITY tools.label "אפשרויות">
+<!ENTITY tools.accesskey "א">
+<!ENTITY dupes.label "הסתר כפולים">
+<!ENTITY dupes.accesskey "ה">
+<!ENTITY strict.label "דיווח מחמיר על אזהרות">
+<!ENTITY strict.accesskey "מ">
+<!ENTITY logCSS.label "דווח שגיאות סגנון">
+<!ENTITY logCSS.accesskey "ס">
+<!ENTITY logExcept.label "דווח על כל חריגות ג&apos;אווה">
+<!ENTITY logExcept.accesskey "ח">
+<!ENTITY onTop.label "תמיד מעל">
+<!ENTITY onTop.accesskey "ת">
+<!ENTITY noteFocus.label "התמקד בדוח">
+<!ENTITY noteFocus.accesskey "ד">
+<!ENTITY domainlst.label "ניהול חוסם התחומים...">
+<!ENTITY domainlst.accesskey "ח">
+<!ENTITY custom1.label "התאמת סרגל הכלים...">
+<!ENTITY custom1.accesskey "ס">
+<!ENTITY clearAll.label "ניקוי מסוף">
+<!ENTITY clearAll.accesskey "נ">
+<!ENTITY clear.label "ניקוי">
+<!ENTITY clear.accesskey "נ">
+<!ENTITY search.label "חיפוש">
+<!ENTITY search.accesskey "ח">
+<!ENTITY evaluate.label "הערכה">
+<!ENTITY evaluate.accesskey "ה">
+<!ENTITY all2.accesskey "ה">
+<!ENTITY errors2.accesskey "ש">
+<!ENTITY warnings2.accesskey "ה">
+<!ENTITY messages2.accesskey "ד">
+<!ENTITY lang.js2.accesskey "J">
+<!ENTITY lang.css2.accesskey "C">
+<!ENTITY lang.xml2.accesskey "X">
+<!ENTITY ctx.chr2.accesskey "ס">
+<!ENTITY ctx.cnt2.accesskey "ת">
+<!ENTITY all3.accesskey "כ">
+<!ENTITY errors3.accesskey "ש">
+<!ENTITY warnings3.accesskey "ה">
+<!ENTITY messages3.accesskey "ה">
+<!ENTITY clear3.accesskey "נ">
+<!ENTITY lang3.accesskey "פ">
+<!ENTITY lang.js3.accesskey "ג">
+<!ENTITY lang.css3.accesskey "ס">
+<!ENTITY lang.xml3.accesskey "ק">
+<!ENTITY ctx.chr3.accesskey "o">
+<!ENTITY ctx.cnt3.accesskey "n">
+<!ENTITY evaluate3.accesskey "u">
+<!ENTITY tools3.accesskey "p">
+<!ENTITY ctx3.accesskey "Q">
+<!ENTITY sortFirst.label "מיון מהראשון לאחרון">
+<!ENTITY sortFirst.accesskey "ר">
+<!ENTITY sortLast.label "מיון מהאחרון לראשון">
+<!ENTITY sortLast.accesskey "א">
+<!ENTITY ignoreCmd.label "התעלמות מהודעה">
+<!ENTITY ignoreCmd.accesskey "ת">
+<!ENTITY blacklist.label "חסימת תחום">
+<!ENTITY blacklist2.label "התעלמות מתחום">
+<!ENTITY blacklist.accesskey "ש">
+<!ENTITY copyCmd.label "העתק">
+<!ENTITY copyCmd.accesskey "ע">
+<!ENTITY copyCmd.commandkey "ע">
+<!ENTITY selCmd.label "בחר הכל">
+<!ENTITY selCmd.accesskey "ה">
+<!ENTITY selCmd.commandkey "ה">
+<!ENTITY menuBar.tooltip "שורת תפריט">
+<!ENTITY toolbarsCmd.label "הצגה\הסתרה">
+<!ENTITY toolbarsCmd.accesskey "ה">
+<!ENTITY modeBar.label "סרגל מצב">
+<!ENTITY modeBar.accesskey "מ">
+<!ENTITY extBar.label "סרגל משני">
+<!ENTITY extBar.accesskey "מ">
+<!ENTITY evalBar.label "סרגל הערכה">
+<!ENTITY evalBar.accesskey "ע">
+<!ENTITY customize.label "התאמה...">
+<!ENTITY customize.accesskey "ת">
+<!ENTITY closeCmd.commandkey "ס">
+<!ENTITY focus1.commandkey "מ">
+<!ENTITY focus2.commandkey "מ">
+<!ENTITY search.commandkey "ח">
+<!ENTITY dupes.tooltip "מספר ערכים כפולים">
+<!ENTITY errLine.label "שורה:">
+<!ENTITY all.tooltip "החלפת כל הערכים שיוצגו">
+<!ENTITY errors.tooltip "הצגה\הסתרה של כל השגיאות">
+<!ENTITY warnings.tooltip "הצגה\הסתרה של כל השגיאות">
+<!ENTITY messages.tooltip "הצגה\הסתרה של כל ההודעות">
+<!ENTITY lang.js.tooltip "הצגה\הסתרה של כל הערכים הקשורים ל-JavaScript">
+<!ENTITY lang.css.tooltip "הצגה\הסתרה של כל הערכים הקשורים לסגנון">
+<!ENTITY lang.xml.tooltip "הצגה\הסתרה של כל הערכים הקשורים ל-HTML/XML/XUL">
+<!ENTITY ctx.chr.tooltip "הצגה\הסתרה של כל הערכים הקשורים ליישום\הרחבה">
+<!ENTITY ctx.cnt.tooltip "הצגה\הסתרה של כל הערכים הקשורים לאתר\דואר">
+<!ENTITY clear.tooltip "מחיקת כל הערכים לצמיתות">
+<!ENTITY copyCmd.tooltip "העתקת כל הערכים הנבחרים">
+<!ENTITY evaluate.tooltip "הערכת ביטוי JavaScript שהוכנס">
+<!ENTITY showAll.label "הצג הכל">

@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "錯誤主控台 - 網域阻擋">
+<!ENTITY close.label "關閉">
+<!ENTITY close.accesskey "C">
+<!ENTITY remove.label "移除項目">
+<!ENTITY remove.accesskey "R">
+<!ENTITY uri.description "你可以在這裡指定你允許或不允許傳送訊息到主控台的網域。輸入網域名稱（或用 * 代表所有網域），並按下「允許」或「阻擋」:">
+<!ENTITY allow.label "允許">
+<!ENTITY allow.accesskey "A">
+<!ENTITY block.label "阻擋">
+<!ENTITY block.accesskey "B">
+<!ENTITY col.domain.label "網域">
+<!ENTITY col.status.label "狀態">

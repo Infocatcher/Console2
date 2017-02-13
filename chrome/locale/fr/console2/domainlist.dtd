@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "Console d'erreurs – Blocage de domaines">
+<!ENTITY close.label "Fermer">
+<!ENTITY close.accesskey "F">
+<!ENTITY remove.label "Supprimer l'entrée">
+<!ENTITY remove.accesskey "S">
+<!ENTITY uri.description "Vous pouvez préciser ici à quels domaines vous voulez autoriser ou interdire d'envoyer des messages à la console. Entrez le nom du domaine (ou * pour tous les domaines) et choisissez « Autoriser » ou « Bloquer » :">
+<!ENTITY allow.label "Autoriser">
+<!ENTITY allow.accesskey "A">
+<!ENTITY block.label "Bloquer">
+<!ENTITY block.accesskey "B">
+<!ENTITY col.domain.label "Domaine">
+<!ENTITY col.status.label "État">

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:chrome="http://www.mozilla.org/rdf/chrome#">
+	<Seq about="urn:mozilla:locale:root">
+		<li resource="urn:mozilla:locale:cs-CZ"/>
+	</Seq>
+	
+	<Description about="urn:mozilla:locale:cs-CZ"
+		chrome:name="cs-CZ"
+		chrome:displayName="Česky (cs-CZ)"
+		chrome:author="Michal Gebauer aka MiSHAK"
+	>
+		<chrome:packages>
+			<Seq about="urn:mozilla:locale:cs-CZ:packages">
+				<li resource="urn:mozilla:locale:cs-CZ:console2"/>
+			</Seq>
+		</chrome:packages>
+	</Description>
+</RDF>

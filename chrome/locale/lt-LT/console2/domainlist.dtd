@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "Klaidų konsolė - Domenų blokuotojas">
+<!ENTITY close.label "Uždaryti">
+<!ENTITY close.accesskey "U">
+<!ENTITY remove.label "Šalinti įrašą">
+<!ENTITY remove.accesskey "Š">
+<!ENTITY uri.description "Čia jūs galite nurodyti, kuriems domenams jūs leidžiate ar draudžiate siųsti žinutes į konsolę. Įveskite bet kokį domeno vardą (arba * visiems domenams) ir spauskite Leisti arba Blokuoti">
+<!ENTITY allow.label "Leisti">
+<!ENTITY allow.accesskey "L">
+<!ENTITY block.label "Blokuoti">
+<!ENTITY block.accesskey "B">
+<!ENTITY col.domain.label "Domenas">
+<!ENTITY col.status.label "Būsena">

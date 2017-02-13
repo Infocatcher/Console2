@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "Console de Erros - Bloqueador de Domínios">
+<!ENTITY close.label "Fechar">
+<!ENTITY close.accesskey "F">
+<!ENTITY remove.label "Remover Entrada">
+<!ENTITY remove.accesskey "R">
+<!ENTITY uri.description "Você pode especificar aqui que domínios deseja permitir ou não que enviem entradas para o console. Digite qualquer nome de domínio (ou * para todos os domínios) e clique em Permitir ou Bloquear:">
+<!ENTITY allow.label "Permitir">
+<!ENTITY allow.accesskey "P">
+<!ENTITY block.label "Bloquear">
+<!ENTITY block.accesskey "B">
+<!ENTITY col.domain.label "Domínio">
+<!ENTITY col.status.label "Status">

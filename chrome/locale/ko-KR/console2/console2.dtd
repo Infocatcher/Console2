@@ -1,0 +1,125 @@
+<!ENTITY console.title "오류 콘솔">
+<!ENTITY console.accesskey "E">
+<!ENTITY console.tooltiptext "오류 콘솔 보기">
+<!ENTITY type.label "종류">
+<!ENTITY type.accesskey "y">
+<!ENTITY all.label "모두">
+<!ENTITY all.accesskey "A">
+<!ENTITY errors.label "오류">
+<!ENTITY errors.accesskey "E">
+<!ENTITY warnings.label "경고">
+<!ENTITY warnings.accesskey "W">
+<!ENTITY messages.label "메시지">
+<!ENTITY messages.accesskey "M">
+<!ENTITY mixed.label "종합">
+<!ENTITY lang.label "언어">
+<!ENTITY lang.accesskey "L">
+<!ENTITY lang.all.label "모두">
+<!ENTITY lang.all.accesskey "A">
+<!ENTITY lang.js.label "JS">
+<!ENTITY lang.js.accesskey "J">
+<!ENTITY lang.css.label "CSS">
+<!ENTITY lang.css.accesskey "C">
+<!ENTITY lang.xml.label "XML">
+<!ENTITY lang.xml.accesskey "X">
+<!ENTITY ctx.accesskey "(N)">
+<!ENTITY ctx.all.label "모든구역">
+<!ENTITY ctx.all.accesskey "A">
+<!ENTITY ctx.chr.label "크롬">
+<!ENTITY ctx.chr.accesskey "C">
+<!ENTITY ctx.cnt.label "내용">
+<!ENTITY ctx.cnt.accesskey "o">
+<!ENTITY tools.label "설정">
+<!ENTITY tools.accesskey "O">
+<!ENTITY dupes.label "중복내용 감추기">
+<!ENTITY dupes.accesskey "D">
+<!ENTITY strict.label "엄격하게 경고를 보고하기">
+<!ENTITY strict.accesskey "S">
+<!ENTITY logCSS.label "CSS 오류 보고">
+<!ENTITY logCSS.accesskey "e">
+<!ENTITY logExcept.label "모든 자바스크립트 오류 보고">
+<!ENTITY logExcept.accesskey "J">
+<!ENTITY onTop.label "항상 위에">
+<!ENTITY onTop.accesskey "(A)">
+<!ENTITY noteFocus.label "정보 발생시 항상 위에">
+<!ENTITY noteFocus.accesskey "R">
+<!ENTITY domainlst.label "도메인 차단 설정...">
+<!ENTITY domainlst.accesskey "B">
+<!ENTITY custom1.label "툴바 사용자 정의...">
+<!ENTITY custom1.accesskey "t">
+<!ENTITY clearAll.label "콘솔내용 제거">
+<!ENTITY clearAll.accesskey "C">
+<!ENTITY clear.label "제거">
+<!ENTITY clear.accesskey "R">
+<!ENTITY search.label "검색">
+<!ENTITY search.accesskey "S">
+<!ENTITY evaluate.label "계산하기">
+<!ENTITY evaluate.accesskey "V">
+<!ENTITY all2.accesskey "A">
+<!ENTITY errors2.accesskey "E">
+<!ENTITY warnings2.accesskey "W">
+<!ENTITY messages2.accesskey "M">
+<!ENTITY lang.js2.accesskey "J">
+<!ENTITY lang.css2.accesskey "Z">
+<!ENTITY lang.xml2.accesskey "X">
+<!ENTITY ctx.chr2.accesskey "H">
+<!ENTITY ctx.cnt2.accesskey "T">
+<!ENTITY all3.accesskey "A">
+<!ENTITY errors3.accesskey "R">
+<!ENTITY warnings3.accesskey "G">
+<!ENTITY messages3.accesskey "M">
+<!ENTITY clear3.accesskey "I">
+<!ENTITY lang3.accesskey ":">
+<!ENTITY lang.js3.accesskey "&lang.js2.accesskey;">
+<!ENTITY lang.css3.accesskey "&lang.css2.accesskey;">
+<!ENTITY lang.xml3.accesskey "&lang.xml2.accesskey;">
+<!ENTITY ctx.chr3.accesskey "O">
+<!ENTITY ctx.cnt3.accesskey "N">
+<!ENTITY evaluate3.accesskey "U">
+<!ENTITY tools3.accesskey "P">
+<!ENTITY ctx3.accesskey "Q">
+<!ENTITY sortFirst.label "내림차순 정렬">
+<!ENTITY sortFirst.accesskey "F">
+<!ENTITY sortLast.label "오름차순 정렬">
+<!ENTITY sortLast.accesskey "I">
+<!ENTITY ignoreCmd.label "메시지 무시">
+<!ENTITY ignoreCmd.accesskey "M">
+<!ENTITY blacklist.label "도메인 차단">
+<!ENTITY blacklist2.label "도메인 무시">
+<!ENTITY blacklist.accesskey "D">
+<!ENTITY copyCmd.label "복사">
+<!ENTITY copyCmd.accesskey "C">
+<!ENTITY copyCmd.commandkey "C">
+<!ENTITY selCmd.label "모두 선택">
+<!ENTITY selCmd.accesskey "A">
+<!ENTITY selCmd.commandkey "A">
+<!ENTITY menuBar.tooltip "메뉴바">
+<!ENTITY toolbarsCmd.label "보이기/숨김">
+<!ENTITY toolbarsCmd.accesskey "W">
+<!ENTITY modeBar.label "모드 툴바">
+<!ENTITY modeBar.accesskey "M">
+<!ENTITY extBar.label "보조 툴바">
+<!ENTITY extBar.accesskey "S">
+<!ENTITY evalBar.label "평가식 툴바">
+<!ENTITY evalBar.accesskey "E">
+<!ENTITY customize.label "사용자 정의...">
+<!ENTITY customize.accesskey "C">
+<!ENTITY closeCmd.commandkey "W">
+<!ENTITY focus1.commandkey "I">
+<!ENTITY focus2.commandkey "D">
+<!ENTITY search.commandkey "K">
+<!ENTITY dupes.tooltip "중복된 내용이 # 개 발견되었습니다.">
+<!ENTITY errLine.label "줄:">
+<!ENTITY all.tooltip "모든 내용이 보이도록 고정">
+<!ENTITY errors.tooltip "모든 오류 보기/감추기">
+<!ENTITY warnings.tooltip "모든 경고 보기/감추기">
+<!ENTITY messages.tooltip "모든 메시지 보기/감추기">
+<!ENTITY lang.js.tooltip "모든 자바스크립트 내용 보기/감추기">
+<!ENTITY lang.css.tooltip "모든 스타일시트 내용 보기/감추기">
+<!ENTITY lang.xml.tooltip "모든 HTML/XML/XUL 내용 보기/감추기">
+<!ENTITY ctx.chr.tooltip "모든 프로그램/확장 내용 보기/감추기">
+<!ENTITY ctx.cnt.tooltip "모든 웹사이트/메일 내용 보기/감추기">
+<!ENTITY clear.tooltip "모든 내용 완전히 삭제">
+<!ENTITY copyCmd.tooltip "선택된 내용 복사">
+<!ENTITY evaluate.tooltip "입력된 모든 자바스크립트 평가식 실행">
+<!ENTITY showAll.label "모두 보기">

@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "Hibakonzol - Tartományok tiltása">
+<!ENTITY close.label "Bezárás">
+<!ENTITY close.accesskey "B">
+<!ENTITY remove.label "Bejegyzés törlése">
+<!ENTITY remove.accesskey "r">
+<!ENTITY uri.description "Megadhatja, mely tartományok esetén engedélyezi vagy tiltja le az üzenetküldést bejegyzésként a hibakonzolba. Adja meg a tartomány nevét (* minden tartomány) és válasszon az Engedélyezés vagy Tiltás közül:">
+<!ENTITY allow.label "Engedélyezés">
+<!ENTITY allow.accesskey "E">
+<!ENTITY block.label "Tiltás">
+<!ENTITY block.accesskey "T">
+<!ENTITY col.domain.label "Tartomány">
+<!ENTITY col.status.label "Állapot">

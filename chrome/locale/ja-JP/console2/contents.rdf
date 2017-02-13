@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:chrome="http://www.mozilla.org/rdf/chrome#">
+	<Seq about="urn:mozilla:locale:root">
+		<li resource="urn:mozilla:locale:ja-JP"/>
+	</Seq>
+	
+	<Description about="urn:mozilla:locale:ja-JP"
+		chrome:name="ja-JP"
+		chrome:displayName="Japanese (JP)"
+		chrome:author="mar">
+		
+		<chrome:packages>
+			<Seq about="urn:mozilla:locale:ja-JP:packages">
+				<li resource="urn:mozilla:locale:ja-JP:console2"/>
+			</Seq>
+		</chrome:packages>
+	</Description>
+</RDF>

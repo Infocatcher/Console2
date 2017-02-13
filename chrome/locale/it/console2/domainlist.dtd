@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "Blocco dei dominii">
+<!ENTITY close.label "Chiudi">
+<!ENTITY close.accesskey "C">
+<!ENTITY remove.label "Elimina elemento">
+<!ENTITY remove.accesskey "E">
+<!ENTITY uri.description "È possibile specificare a quali dominii permettere o meno l&apos;invio dei messaggi alla console. Inserire il nome di un dominio (oppure * per tutti i domini) e selezionare Permetti oppure Blocca">
+<!ENTITY allow.label "Permetti">
+<!ENTITY allow.accesskey "P">
+<!ENTITY block.label "Blocca">
+<!ENTITY block.accesskey "B">
+<!ENTITY col.domain.label "Dominio">
+<!ENTITY col.status.label "Stato">

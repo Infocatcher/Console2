@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "Konsola błędów - blokowanie domen">
+<!ENTITY close.label "Zamknij">
+<!ENTITY close.accesskey "Z">
+<!ENTITY remove.label "Usuń wpis">
+<!ENTITY remove.accesskey "U">
+<!ENTITY uri.description "Tutaj można określić, które domeny mogą wysyłać dane do konsoli. Proszę wprowadzić nazwę domeny lub (*) dla wszystkich domen i nacisnąć przycisk &quot;Zezwalaj&quot; lub &quot;Blokuj&quot;.">
+<!ENTITY allow.label "Zezwalaj">
+<!ENTITY allow.accesskey "W">
+<!ENTITY block.label "Blokuj">
+<!ENTITY block.accesskey "B">
+<!ENTITY col.domain.label "Domena">
+<!ENTITY col.status.label "Status">

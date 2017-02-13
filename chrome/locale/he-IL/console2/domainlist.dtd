@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "מסוף שגיאות - חוסם תחום">
+<!ENTITY close.label "סגירה">
+<!ENTITY close.accesskey "ס">
+<!ENTITY remove.label "הסרת ערך">
+<!ENTITY remove.accesskey "ה">
+<!ENTITY uri.description "כאן ניתן לציין אילו תחומים (דומיינים) ברצונך לאשר או לחסום לשליחת הודעות למסוף. יש להקליד כל שם תחום (או * לכל התחומים) ולבחור באישור או חסימה:">
+<!ENTITY allow.label "אישור">
+<!ENTITY allow.accesskey "א">
+<!ENTITY block.label "חסימה">
+<!ENTITY block.accesskey "ב">
+<!ENTITY col.domain.label "תחום">
+<!ENTITY col.status.label "מצב">

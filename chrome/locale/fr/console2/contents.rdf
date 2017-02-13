@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:chrome="http://www.mozilla.org/rdf/chrome#">
+	<Seq about="urn:mozilla:locale:root">
+		<li resource="urn:mozilla:locale:fr-FR"/>
+	</Seq>
+	
+	<Description about="urn:mozilla:locale:fr-FR"
+		chrome:name="fr-FR"
+		chrome:displayName="Français (FR)"
+		chrome:author="Menet, myahoo"
+	>
+		<chrome:packages>
+			<Seq about="urn:mozilla:locale:fr-FR:packages">
+				<li resource="urn:mozilla:locale:fr-FR:console2"/>
+			</Seq>
+		</chrome:packages>
+	</Description>
+</RDF>

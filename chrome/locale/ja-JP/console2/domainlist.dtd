@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "エラーコンソール - ドメインブロッカー">
+<!ENTITY close.label "閉じる">
+<!ENTITY close.accesskey "C">
+<!ENTITY remove.label "エントリを削除">
+<!ENTITY remove.accesskey "R">
+<!ENTITY uri.description "ここでは、コンソールへのメッセージエントリの送信を許可するドメインを指定します。ドメイン名を入力(すべてのドメインの場合は*を入力)し、許可またはブロックを押下してください。">
+<!ENTITY allow.label "許可">
+<!ENTITY allow.accesskey "A">
+<!ENTITY block.label "ブロック">
+<!ENTITY block.accesskey "B">
+<!ENTITY col.domain.label "ドメイン">
+<!ENTITY col.status.label "状態">

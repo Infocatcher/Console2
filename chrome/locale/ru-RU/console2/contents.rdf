@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:chrome="http://www.mozilla.org/rdf/chrome#">
+	<Seq about="urn:mozilla:locale:root">
+		<li resource="urn:mozilla:locale:ru-RU"/>
+	</Seq>
+	
+	<Description about="urn:mozilla:locale:ru-RU"
+		chrome:name="ru-RU"
+		chrome:displayName="Russian (RU)"
+		chrome:author="INFOMAN"
+	>
+		<chrome:packages>
+			<Seq about="urn:mozilla:locale:ru-RU:packages">
+				<li resource="urn:mozilla:locale:ru-RU:console2"/>
+			</Seq>
+		</chrome:packages>
+	</Description>
+</RDF>

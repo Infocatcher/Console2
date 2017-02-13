@@ -1,0 +1,125 @@
+<!ENTITY console.title "Fehlerkonsole">
+<!ENTITY console.accesskey "F">
+<!ENTITY console.tooltiptext "Fehlerkonsole anzeigen">
+<!ENTITY type.label "Typ">
+<!ENTITY type.accesskey "y">
+<!ENTITY all.label "Alle">
+<!ENTITY all.accesskey "A">
+<!ENTITY errors.label "Fehler">
+<!ENTITY errors.accesskey "F">
+<!ENTITY warnings.label "Warnungen">
+<!ENTITY warnings.accesskey "W">
+<!ENTITY messages.label "Meldungen">
+<!ENTITY messages.accesskey "M">
+<!ENTITY mixed.label "Verschiedene">
+<!ENTITY lang.label "Sprache">
+<!ENTITY lang.accesskey "p">
+<!ENTITY lang.all.label "Alle">
+<!ENTITY lang.all.accesskey "A">
+<!ENTITY lang.js.label "JS">
+<!ENTITY lang.js.accesskey "J">
+<!ENTITY lang.css.label "CSS">
+<!ENTITY lang.css.accesskey "C">
+<!ENTITY lang.xml.label "XML">
+<!ENTITY lang.xml.accesskey "X">
+<!ENTITY ctx.accesskey "e">
+<!ENTITY ctx.all.label "Alle">
+<!ENTITY ctx.all.accesskey "A">
+<!ENTITY ctx.chr.label "Chrome">
+<!ENTITY ctx.chr.accesskey "C">
+<!ENTITY ctx.cnt.label "Seiteninhalte">
+<!ENTITY ctx.cnt.accesskey "i">
+<!ENTITY tools.label "Einstellungen">
+<!ENTITY tools.accesskey "g">
+<!ENTITY dupes.label "Doppelte Einträge ausblenden">
+<!ENTITY dupes.accesskey "D">
+<!ENTITY strict.label "Strict-Warnungen anzeigen">
+<!ENTITY strict.accesskey "S">
+<!ENTITY logCSS.label "CSS-Fehler anzeigen">
+<!ENTITY logCSS.accesskey "C">
+<!ENTITY logExcept.label "JavaScript-Ausnahmebehandlungen anzeigen">
+<!ENTITY logExcept.accesskey "J">
+<!ENTITY onTop.label "Immer im Vordergrund">
+<!ENTITY onTop.accesskey "V">
+<!ENTITY noteFocus.label "Fokus auf Meldungen">
+<!ENTITY noteFocus.accesskey "F">
+<!ENTITY domainlst.label "Domain-Blocker verwalten...">
+<!ENTITY domainlst.accesskey "B">
+<!ENTITY custom1.label "Symbolleisten anpassen...">
+<!ENTITY custom1.accesskey "y">
+<!ENTITY clearAll.label "Konsole leeren">
+<!ENTITY clearAll.accesskey "l">
+<!ENTITY clear.label "Löschen">
+<!ENTITY clear.accesskey "ö">
+<!ENTITY search.label "Suchen">
+<!ENTITY search.accesskey "S">
+<!ENTITY evaluate.label "Auswerten">
+<!ENTITY evaluate.accesskey "u">
+<!ENTITY all2.accesskey "l">
+<!ENTITY errors2.accesskey "F">
+<!ENTITY warnings2.accesskey "W">
+<!ENTITY messages2.accesskey "M">
+<!ENTITY lang.js2.accesskey "J">
+<!ENTITY lang.css2.accesskey "C">
+<!ENTITY lang.xml2.accesskey "X">
+<!ENTITY ctx.chr2.accesskey "h">
+<!ENTITY ctx.cnt2.accesskey "I">
+<!ENTITY all3.accesskey "A">
+<!ENTITY errors3.accesskey "F">
+<!ENTITY warnings3.accesskey "W">
+<!ENTITY messages3.accesskey "&messages2.accesskey;">
+<!ENTITY clear3.accesskey "ö">
+<!ENTITY lang3.accesskey "p">
+<!ENTITY lang.js3.accesskey "J">
+<!ENTITY lang.css3.accesskey "C">
+<!ENTITY lang.xml3.accesskey "X">
+<!ENTITY ctx.chr3.accesskey "h">
+<!ENTITY ctx.cnt3.accesskey "I">
+<!ENTITY evaluate3.accesskey "u">
+<!ENTITY tools3.accesskey "g">
+<!ENTITY ctx3.accesskey "n">
+<!ENTITY sortFirst.label "Sortierung: Erste &gt; Letzte">
+<!ENTITY sortFirst.accesskey "E">
+<!ENTITY sortLast.label "Sortierung: Letzte &gt; Erste">
+<!ENTITY sortLast.accesskey "L">
+<!ENTITY ignoreCmd.label "Meldung ignorieren">
+<!ENTITY ignoreCmd.accesskey "M">
+<!ENTITY blacklist.label "Domain blockieren">
+<!ENTITY blacklist2.label "Domain ignorieren">
+<!ENTITY blacklist.accesskey "D">
+<!ENTITY copyCmd.label "Kopieren">
+<!ENTITY copyCmd.accesskey "K">
+<!ENTITY copyCmd.commandkey "C">
+<!ENTITY selCmd.label "Alle markieren">
+<!ENTITY selCmd.accesskey "A">
+<!ENTITY selCmd.commandkey "A">
+<!ENTITY menuBar.tooltip "Menüleiste">
+<!ENTITY toolbarsCmd.label "Anzeigen/Verstecken">
+<!ENTITY toolbarsCmd.accesskey "A">
+<!ENTITY modeBar.label "Modus-Symbolleiste">
+<!ENTITY modeBar.accesskey "M">
+<!ENTITY extBar.label "Zweite Symbolleiste">
+<!ENTITY extBar.accesskey "S">
+<!ENTITY evalBar.label "Auswertungs-Symbolleiste">
+<!ENTITY evalBar.accesskey "A">
+<!ENTITY customize.label "Anpassen...">
+<!ENTITY customize.accesskey "A">
+<!ENTITY closeCmd.commandkey "q">
+<!ENTITY focus1.commandkey "l">
+<!ENTITY focus2.commandkey "d">
+<!ENTITY search.commandkey "k">
+<!ENTITY dupes.tooltip "Anzahl doppelter Einträge">
+<!ENTITY errLine.label "Zeile:">
+<!ENTITY all.tooltip "Alle Einträge anzeigen">
+<!ENTITY errors.tooltip "Alle Fehler ein-/ausblenden">
+<!ENTITY warnings.tooltip "Alle Warnungen ein-/ausblenden">
+<!ENTITY messages.tooltip "Alle Meldungen ein-/ausblenden">
+<!ENTITY lang.js.tooltip "Alle JavaScript-Einträge ein-/ausblenden">
+<!ENTITY lang.css.tooltip "Alle Stylesheet-Einträge ein-/ausblenden">
+<!ENTITY lang.xml.tooltip "Alle HTML/XML/XUL-Einträge ein-/ausblenden">
+<!ENTITY ctx.chr.tooltip "Alle von der Anwendung und von Erweiterungen verursachten Einträge ein-/ausblenden">
+<!ENTITY ctx.cnt.tooltip "Alle von Webseiten und Nachrichten verursachten Einträge ein-/ausblenden">
+<!ENTITY clear.tooltip "Alle Einträge endgültig löschen">
+<!ENTITY copyCmd.tooltip "Markierte Einträge kopieren">
+<!ENTITY evaluate.tooltip "Eingegebenen JavaScript-Ausdruck auswerten">
+<!ENTITY showAll.label "Alle anzeigen">

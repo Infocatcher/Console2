@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "Chybová konzola - Blokování domén">
+<!ENTITY close.label "Zavřít">
+<!ENTITY close.accesskey "Z">
+<!ENTITY remove.label "Odebrat položku">
+<!ENTITY remove.accesskey "O">
+<!ENTITY uri.description "Zde můžete zadat domény, kterým chcete povolit resp. zakázat posílat zprávy do konzole. Zadejte jakékoliv doménové jméno (nebo * pro všechny domény) a klepněte na Povolit nebo Blokovat:">
+<!ENTITY allow.label "Povolit">
+<!ENTITY allow.accesskey "P">
+<!ENTITY block.label "Blokovat">
+<!ENTITY block.accesskey "B">
+<!ENTITY col.domain.label "Doména">
+<!ENTITY col.status.label "Akce">

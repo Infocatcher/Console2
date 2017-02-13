@@ -1,0 +1,125 @@
+<!ENTITY console.title "Foutconsole">
+<!ENTITY console.accesskey "F">
+<!ENTITY console.tooltiptext "De foutconsole tonen">
+<!ENTITY type.label "Type">
+<!ENTITY type.accesskey "e">
+<!ENTITY all.label "Alles">
+<!ENTITY all.accesskey "A">
+<!ENTITY errors.label "Fouten">
+<!ENTITY errors.accesskey "F">
+<!ENTITY warnings.label "Waarschuwingen">
+<!ENTITY warnings.accesskey "W">
+<!ENTITY messages.label "Berichten">
+<!ENTITY messages.accesskey "B">
+<!ENTITY mixed.label "Meerdere">
+<!ENTITY lang.label "Taal">
+<!ENTITY lang.accesskey "T">
+<!ENTITY lang.all.label "Alles">
+<!ENTITY lang.all.accesskey "A">
+<!ENTITY lang.js.label "JS">
+<!ENTITY lang.js.accesskey "J">
+<!ENTITY lang.css.label "CSS">
+<!ENTITY lang.css.accesskey "S">
+<!ENTITY lang.xml.label "XML">
+<!ENTITY lang.xml.accesskey "M">
+<!ENTITY ctx.accesskey "o">
+<!ENTITY ctx.all.label "Overal">
+<!ENTITY ctx.all.accesskey "v">
+<!ENTITY ctx.chr.label "Chrome">
+<!ENTITY ctx.chr.accesskey "C">
+<!ENTITY ctx.cnt.label "Inhoud">
+<!ENTITY ctx.cnt.accesskey "n">
+<!ENTITY tools.label "Opties">
+<!ENTITY tools.accesskey "p">
+<!ENTITY dupes.label "Dubbelen verbergen">
+<!ENTITY dupes.accesskey "u">
+<!ENTITY strict.label "Meld strikte waarschuwingen">
+<!ENTITY strict.accesskey "s">
+<!ENTITY logCSS.label "Meld CSS fouten">
+<!ENTITY logCSS.accesskey "C">
+<!ENTITY logExcept.label "Rapporteer alle JS Uitzonderingen">
+<!ENTITY logExcept.accesskey "J">
+<!ENTITY onTop.label "Altijd zichtbaar">
+<!ENTITY onTop.accesskey "l">
+<!ENTITY noteFocus.label "Naar voorgrond bij melding">
+<!ENTITY noteFocus.accesskey "N">
+<!ENTITY domainlst.label "Domein blokkeerder...">
+<!ENTITY domainlst.accesskey "b">
+<!ENTITY custom1.label "Aanpassen...">
+<!ENTITY custom1.accesskey "A">
+<!ENTITY clearAll.label "Console Wissen">
+<!ENTITY clearAll.accesskey "W">
+<!ENTITY clear.label "Wissen">
+<!ENTITY clear.accesskey "i">
+<!ENTITY search.label "Zoeken">
+<!ENTITY search.accesskey "o">
+<!ENTITY evaluate.label "Evalueren">
+<!ENTITY evaluate.accesskey "u">
+<!ENTITY all2.accesskey "A">
+<!ENTITY errors2.accesskey "F">
+<!ENTITY warnings2.accesskey "g">
+<!ENTITY messages2.accesskey "r">
+<!ENTITY lang.js2.accesskey "J">
+<!ENTITY lang.css2.accesskey "S">
+<!ENTITY lang.xml2.accesskey "M">
+<!ENTITY ctx.chr2.accesskey "C">
+<!ENTITY ctx.cnt2.accesskey "n">
+<!ENTITY all3.accesskey "A">
+<!ENTITY errors3.accesskey "F">
+<!ENTITY warnings3.accesskey "g">
+<!ENTITY messages3.accesskey "r">
+<!ENTITY clear3.accesskey "i">
+<!ENTITY lang3.accesskey "T">
+<!ENTITY lang.js3.accesskey "J">
+<!ENTITY lang.css3.accesskey "S">
+<!ENTITY lang.xml3.accesskey "M">
+<!ENTITY ctx.chr3.accesskey "C">
+<!ENTITY ctx.cnt3.accesskey "n">
+<!ENTITY evaluate3.accesskey "u">
+<!ENTITY tools3.accesskey "p">
+<!ENTITY ctx3.accesskey "o">
+<!ENTITY sortFirst.label "Nieuw &gt; Oud sorteren">
+<!ENTITY sortFirst.accesskey "i">
+<!ENTITY sortLast.label "Oud &gt; Nieuw sorteren">
+<!ENTITY sortLast.accesskey "d">
+<!ENTITY ignoreCmd.label "Bericht negeren">
+<!ENTITY ignoreCmd.accesskey "n">
+<!ENTITY blacklist.label "Domein blokkeren">
+<!ENTITY blacklist2.label "Domein negeren">
+<!ENTITY blacklist.accesskey "D">
+<!ENTITY copyCmd.label "Kopiëren">
+<!ENTITY copyCmd.accesskey "K">
+<!ENTITY copyCmd.commandkey "C">
+<!ENTITY selCmd.label "Alles selecteren">
+<!ENTITY selCmd.accesskey "A">
+<!ENTITY selCmd.commandkey "A">
+<!ENTITY menuBar.tooltip "Menubalk">
+<!ENTITY toolbarsCmd.label "Tonen/Verbergen">
+<!ENTITY toolbarsCmd.accesskey "T">
+<!ENTITY modeBar.label "Modus werkbalk">
+<!ENTITY modeBar.accesskey "M">
+<!ENTITY extBar.label "Tweede werkbalk">
+<!ENTITY extBar.accesskey "T">
+<!ENTITY evalBar.label "Evaluatiewerkbalk">
+<!ENTITY evalBar.accesskey "E">
+<!ENTITY customize.label "Aanpassen...">
+<!ENTITY customize.accesskey "A">
+<!ENTITY closeCmd.commandkey "w">
+<!ENTITY focus1.commandkey "L">
+<!ENTITY focus2.commandkey "d">
+<!ENTITY search.commandkey "k">
+<!ENTITY dupes.tooltip "# dubbele meldingen">
+<!ENTITY errLine.label "Regel:">
+<!ENTITY all.tooltip "Maakt alle meldingen zichtbaar">
+<!ENTITY errors.tooltip "Alle fouten tonen/verbergen">
+<!ENTITY warnings.tooltip "Alle waarschuwingen tonen/verbergen">
+<!ENTITY messages.tooltip "Alle berichten tonen/verbergen">
+<!ENTITY lang.js.tooltip "Alle met JavaScript verbonden meldingen tonen/verbergen">
+<!ENTITY lang.css.tooltip "Alle met de stijlpagina verbonden meldingen tonen/verbergen">
+<!ENTITY lang.xml.tooltip "Alle met HTML/XML/XUL verbonden meldingen tonen/verbergen">
+<!ENTITY ctx.chr.tooltip "Alle Programma/Extensie verbonden meldingen tonen/verbergen">
+<!ENTITY ctx.cnt.tooltip "Alle met Website/Mail verbonden meldingen tonen/verbergen">
+<!ENTITY clear.tooltip "Alle meldingen definitief verwijderen">
+<!ENTITY copyCmd.tooltip "Alle geselecteerde meldingen kopiëren">
+<!ENTITY evaluate.tooltip "Evalueer deze JavaScript expressie">
+<!ENTITY showAll.label "Alles tonen">

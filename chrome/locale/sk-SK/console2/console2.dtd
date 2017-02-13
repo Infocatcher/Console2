@@ -1,0 +1,108 @@
+<!ENTITY console.title "Chybová konzola">
+<!ENTITY console.accesskey "k">
+<!ENTITY console.tooltiptext "Zobrazí chybovú konzolu">
+<!ENTITY type.label "Typ">
+<!ENTITY type.accesskey "y">
+<!ENTITY all.label "Všetko">
+<!ENTITY all.accesskey "e">
+<!ENTITY errors.label "Chyby">
+<!ENTITY errors.accesskey "C">
+<!ENTITY warnings.label "Varovania">
+<!ENTITY warnings.accesskey "a">
+<!ENTITY messages.label "Informácie">
+<!ENTITY messages.accesskey "m">
+<!ENTITY mixed.label "Zmiešané">
+<!ENTITY lang.label "Jazyk">
+<!ENTITY lang.accesskey "J">
+<!ENTITY lang.all.label "Všetko">
+<!ENTITY lang.all.accesskey "e">
+<!ENTITY lang.js.label "JS">
+<!ENTITY lang.js.accesskey "J">
+<!ENTITY lang.css.label "CSS">
+<!ENTITY lang.css.accesskey "S">
+<!ENTITY lang.xml.label "XML">
+<!ENTITY lang.xml.accesskey "X">
+<!ENTITY ctx.accesskey "o">
+<!ENTITY ctx.all.label "Kdekoľvek">
+<!ENTITY ctx.all.accesskey "o">
+<!ENTITY ctx.chr.label "Chrome">
+<!ENTITY ctx.chr.accesskey "h">
+<!ENTITY ctx.cnt.label "Obsah">
+<!ENTITY ctx.cnt.accesskey "b">
+<!ENTITY tools.label "Možnosti">
+<!ENTITY tools.accesskey "M">
+<!ENTITY dupes.label "Skryť duplikáty">
+<!ENTITY dupes.accesskey "d">
+<!ENTITY strict.label "Hlásiť striktné varovania">
+<!ENTITY strict.accesskey "s">
+<!ENTITY logCSS.label "Hlásiť CSS chyby">
+<!ENTITY logCSS.accesskey "C">
+<!ENTITY onTop.label "Vždy navrchu">
+<!ENTITY onTop.accesskey "a">
+<!ENTITY noteFocus.label "Hlásenie presunúť do popredia">
+<!ENTITY noteFocus.accesskey "r">
+<!ENTITY domainlst.label "Spravovať blokovanie domén...">
+<!ENTITY domainlst.accesskey "b">
+<!ENTITY custom1.label "Prispôsobiť...">
+<!ENTITY custom1.accesskey "P">
+<!ENTITY clearAll.label "Vyčistiť konzolu">
+<!ENTITY clearAll.accesskey "V">
+<!ENTITY clear.label "Odstrániť">
+<!ENTITY clear.accesskey "d">
+<!ENTITY search.label "Hľadať">
+<!ENTITY search.accesskey "H">
+<!ENTITY evaluate.label "Vyhodnotiť">
+<!ENTITY evaluate.accesskey "V">
+<!ENTITY all2.accesskey "e">
+<!ENTITY errors2.accesskey "C">
+<!ENTITY warnings2.accesskey "a">
+<!ENTITY messages2.accesskey "m">
+<!ENTITY lang.js2.accesskey "J">
+<!ENTITY lang.css2.accesskey "S">
+<!ENTITY lang.xml2.accesskey "X">
+<!ENTITY ctx.chr2.accesskey "h">
+<!ENTITY ctx.cnt2.accesskey "b">
+<!ENTITY sortFirst.label "Usporiadať vzostupne">
+<!ENTITY sortFirst.accesskey "v">
+<!ENTITY sortLast.label "Usporiadať zostupne">
+<!ENTITY sortLast.accesskey "z">
+<!ENTITY ignoreCmd.label "Ignorovať správu">
+<!ENTITY ignoreCmd.accesskey "s">
+<!ENTITY blacklist.label "Blokovať doménu">
+<!ENTITY blacklist2.label "Ignorovať doménu">
+<!ENTITY blacklist.accesskey "d">
+<!ENTITY copyCmd.label "Kopírovať">
+<!ENTITY copyCmd.accesskey "K">
+<!ENTITY copyCmd.commandkey "C">
+<!ENTITY selCmd.label "Vybrať všetko">
+<!ENTITY selCmd.accesskey "a">
+<!ENTITY selCmd.commandkey "A">
+<!ENTITY menuBar.tooltip "Ponuka">
+<!ENTITY toolbarsCmd.label "Zobraziť/Skryť">
+<!ENTITY toolbarsCmd.accesskey "Z">
+<!ENTITY modeBar.label "Režim">
+<!ENTITY modeBar.accesskey "m">
+<!ENTITY extBar.label "Druhý panel s nástrojmi">
+<!ENTITY extBar.accesskey "D">
+<!ENTITY evalBar.label "Vyhodnocovací panel s nástrojmi">
+<!ENTITY evalBar.accesskey "V">
+<!ENTITY customize.label "Prispôsobiť...">
+<!ENTITY customize.accesskey "P">
+<!ENTITY closeCmd.commandkey "w">
+<!ENTITY focus1.commandkey "l">
+<!ENTITY focus2.commandkey "d">
+<!ENTITY search.commandkey "k">
+<!ENTITY dupes.tooltip "Počet duplicitných záznamov">
+<!ENTITY errLine.label "Riadok:">
+<!ENTITY all.tooltip "Zobrazí všetky záznamy">
+<!ENTITY errors.tooltip "Zobrazí/skryje všetky chyby">
+<!ENTITY warnings.tooltip "Zobrazí/skryje všetky varovania">
+<!ENTITY messages.tooltip "Zobrazí/skryje všetky informácie">
+<!ENTITY lang.js.tooltip "Zobrazí/skryje všetky záznamy spojené s JavaScriptom">
+<!ENTITY lang.css.tooltip "Zobrazí/skryje všetky záznamy spojené so štýlmi">
+<!ENTITY lang.xml.tooltip "Zobrazí/skryje všetky záznamy spojené s HTML/XML/XUL">
+<!ENTITY ctx.chr.tooltip "Zobrazí/skryje všetky správy spojené s aplikáciou/rozšírením">
+<!ENTITY ctx.cnt.tooltip "Zobrazí/skryje všetky záznamy spojené s webstránkou/poštou">
+<!ENTITY clear.tooltip "Natrvalo zmaže všetky záznamy">
+<!ENTITY copyCmd.tooltip "Skopíruje všetky označené záznamy">
+<!ENTITY evaluate.tooltip "Vyhodnotí zadaný JavaScript výraz">

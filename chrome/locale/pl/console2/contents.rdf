@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:chrome="http://www.mozilla.org/rdf/chrome#">
+	<Seq about="urn:mozilla:locale:root">
+		<li resource="urn:mozilla:locale:pl-PL"/>
+	</Seq>
+	
+	<Description about="urn:mozilla:locale:pl-PL"
+		chrome:name="pl-PL"
+		chrome:displayName="Polski (PL)"
+		chrome:author="Leszek(teo)Życzkowski"
+	>
+		<chrome:packages>
+			<Seq about="urn:mozilla:locale:pl-PL:packages">
+				<li resource="urn:mozilla:locale:pl-PL:console2"/>
+			</Seq>
+		</chrome:packages>
+	</Description>
+</RDF>

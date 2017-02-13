@@ -1,0 +1,12 @@
+<!ENTITY domainlist.title "Консоль ошибок - блокировка доменов">
+<!ENTITY close.label "Закрыть">
+<!ENTITY close.accesskey "З">
+<!ENTITY remove.label "Удалить запись">
+<!ENTITY remove.accesskey "д">
+<!ENTITY uri.description "Вы можете указать, каким доменам разрешать или не разрешать добавлять сообщения в консоль. Введите любое имя домена (или * для всех доменов) и нажмите Разрешить или Блокировать">
+<!ENTITY allow.label "Разрешить">
+<!ENTITY allow.accesskey "Р">
+<!ENTITY block.label "Блокировать">
+<!ENTITY block.accesskey "к">
+<!ENTITY col.domain.label "Домен">
+<!ENTITY col.status.label "Статус">

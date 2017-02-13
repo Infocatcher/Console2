@@ -1,0 +1,108 @@
+<!ENTITY console.title "Консоль ошибок">
+<!ENTITY console.accesskey "К">
+<!ENTITY console.tooltiptext "Показать консоль ошибок">
+<!ENTITY type.label "Тип">
+<!ENTITY type.accesskey "Т">
+<!ENTITY all.label "Все">
+<!ENTITY all.accesskey "В">
+<!ENTITY errors.label "Ошибки">
+<!ENTITY errors.accesskey "О">
+<!ENTITY warnings.label "Предупреждения">
+<!ENTITY warnings.accesskey "П">
+<!ENTITY messages.label "Сообщения">
+<!ENTITY messages.accesskey "С">
+<!ENTITY mixed.label "Смешаный">
+<!ENTITY lang.label "Язык">
+<!ENTITY lang.accesskey "Я">
+<!ENTITY lang.all.label "Все">
+<!ENTITY lang.all.accesskey "В">
+<!ENTITY lang.js.label "JS">
+<!ENTITY lang.js.accesskey "J">
+<!ENTITY lang.css.label "CSS">
+<!ENTITY lang.css.accesskey "C">
+<!ENTITY lang.xml.label "XML">
+<!ENTITY lang.xml.accesskey "X">
+<!ENTITY ctx.accesskey "з">
+<!ENTITY ctx.all.label "Везде">
+<!ENTITY ctx.all.accesskey "В">
+<!ENTITY ctx.chr.label "Chrome">
+<!ENTITY ctx.chr.accesskey "C">
+<!ENTITY ctx.cnt.label "Содержимое">
+<!ENTITY ctx.cnt.accesskey "о">
+<!ENTITY tools.label "Настройки">
+<!ENTITY tools.accesskey "Н">
+<!ENTITY dupes.label "Скрывать повторяющиеся">
+<!ENTITY dupes.accesskey "т">
+<!ENTITY strict.label "Включить строгие предупреждения">
+<!ENTITY strict.accesskey "с">
+<!ENTITY logCSS.label "Сообщать об ошибках CSS">
+<!ENTITY logCSS.accesskey "S">
+<!ENTITY onTop.label "Поверх всех окон">
+<!ENTITY onTop.accesskey "о">
+<!ENTITY noteFocus.label "Фокусировать при добавлении">
+<!ENTITY noteFocus.accesskey "д">
+<!ENTITY domainlst.label "Настроить блокировку доменов">
+<!ENTITY domainlst.accesskey "б">
+<!ENTITY custom1.label "Настроить панель">
+<!ENTITY custom1.accesskey "п">
+<!ENTITY clearAll.label "Очистить консоль">
+<!ENTITY clearAll.accesskey "ч">
+<!ENTITY clear.label "Очистить">
+<!ENTITY clear.accesskey "ч">
+<!ENTITY search.label "Поиск">
+<!ENTITY search.accesskey "П">
+<!ENTITY evaluate.label "Проанализировать">
+<!ENTITY evaluate.accesskey "а">
+<!ENTITY all2.accesskey "В">
+<!ENTITY errors2.accesskey "О">
+<!ENTITY warnings2.accesskey "р">
+<!ENTITY messages2.accesskey "С">
+<!ENTITY lang.js2.accesskey "J">
+<!ENTITY lang.css2.accesskey "S">
+<!ENTITY lang.xml2.accesskey "X">
+<!ENTITY ctx.chr2.accesskey "h">
+<!ENTITY ctx.cnt2.accesskey "д">
+<!ENTITY sortFirst.label "Сортировка по возрастанию">
+<!ENTITY sortFirst.accesskey "в">
+<!ENTITY sortLast.label "Сортировка по убыванию">
+<!ENTITY sortLast.accesskey "у">
+<!ENTITY ignoreCmd.label "Игнорировать сообщение">
+<!ENTITY ignoreCmd.accesskey "И">
+<!ENTITY blacklist.label "Блокировать домен">
+<!ENTITY blacklist2.label "Игнорировать домен">
+<!ENTITY blacklist.accesskey "д">
+<!ENTITY copyCmd.label "Копировать">
+<!ENTITY copyCmd.accesskey "К">
+<!ENTITY copyCmd.commandkey "C">
+<!ENTITY selCmd.label "Выделить все">
+<!ENTITY selCmd.accesskey "В">
+<!ENTITY selCmd.commandkey "A">
+<!ENTITY menuBar.tooltip "Строка меню">
+<!ENTITY toolbarsCmd.label "Показать/Скрыть">
+<!ENTITY toolbarsCmd.accesskey "з">
+<!ENTITY modeBar.label "Режим">
+<!ENTITY modeBar.accesskey "Р">
+<!ENTITY extBar.label "Дополнительная панель">
+<!ENTITY extBar.accesskey "л">
+<!ENTITY evalBar.label "Панель анализа">
+<!ENTITY evalBar.accesskey "н">
+<!ENTITY customize.label "Настроить">
+<!ENTITY customize.accesskey "Н">
+<!ENTITY closeCmd.commandkey "w">
+<!ENTITY focus1.commandkey "l">
+<!ENTITY focus2.commandkey "d">
+<!ENTITY search.commandkey "k">
+<!ENTITY dupes.tooltip "Количество повторяющихся записей">
+<!ENTITY errLine.label "Строка:">
+<!ENTITY all.tooltip "Включает показ всех записей">
+<!ENTITY errors.tooltip "Показать/скрыть ошибки">
+<!ENTITY warnings.tooltip "Показать/скрыть предупреждения">
+<!ENTITY messages.tooltip "Показать/скрыть сообщения">
+<!ENTITY lang.js.tooltip "Показать/скрыть записи, относящиеся к JavaScript">
+<!ENTITY lang.css.tooltip "Показать/скрыть записи, относящиеся к таблицам стилей">
+<!ENTITY lang.xml.tooltip "Показать/скрыть записи, относящиеся к HTML/XML/XUL">
+<!ENTITY ctx.chr.tooltip "Показать/скрыть записи, относящиеся к приложению и расширениям">
+<!ENTITY ctx.cnt.tooltip "Показать/скрыть записи, относящиеся к сайтам и почте">
+<!ENTITY clear.tooltip "Полностью удаляет все записи">
+<!ENTITY copyCmd.tooltip "Копирует все выделеные записи">
+<!ENTITY evaluate.tooltip "Анализирует введенное выражение JavaScript">
