@@ -249,7 +249,11 @@ const gChangeObserver = {
 			case "deleted":
 				for (var i = 0; i < gEntries.length; i++)
 				{
-					if (gEntries[i].host == (permission.host || permission.principal.URI.host))
+					if (
+						"principal" in permission
+							? gEntries[i].URI.spec == permission.principal.URI.spec
+							: gEntries[i].host == permission.host
+					)
 					{
 						if (aData == "changed")
 						{
