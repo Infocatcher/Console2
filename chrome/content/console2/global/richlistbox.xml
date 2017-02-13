@@ -63,7 +63,10 @@
         document.getAnonymousElementByAttribute(this, "anonid", "main-box");
       </field>
       <field name="scrollBoxObject">
-        this._scrollbox.boxObject.QueryInterface(Components.interfaces.nsIScrollBoxObject);
+        var bo = this._scrollbox.boxObject;
+        if("nsIScrollBoxObject" in Components.interfaces)
+          bo instanceof Components.interfaces.nsIScrollBoxObject;
+        bo;
       </field>
       <constructor>
         <![CDATA[

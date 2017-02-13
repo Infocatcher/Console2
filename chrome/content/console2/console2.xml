@@ -522,7 +522,9 @@
 
 			<constructor><![CDATA[
 				var x = document.getAnonymousElementByAttribute(this, "anonid", "main-box");
-				this.scrollBoxObject = x.boxObject.QueryInterface(Components.interfaces.nsIScrollBoxObject);
+				this.scrollBoxObject = x.boxObject;
+				if("nsIScrollBoxObject" in Components.interfaces)
+					this.scrollBoxObject instanceof Components.interfaces.nsIScrollBoxObject;
 				this._bundle = document.getAnonymousElementByAttribute(this, "anonid", "string-bundle");
 				this.initDupeFinder();
 				this._limit = this.mPrefs.getIntPref("extensions.console2.max-errors");
