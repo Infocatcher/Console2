@@ -125,9 +125,12 @@ function addDomainInternal(aPermission)
 {
 	if (aPermission.type == "console2")
 	{
+		// See https://bugzilla.mozilla.org/show_bug.cgi?id=1173523
+		var host = aPermission.host || aPermission.principal.URI.host; // Firefox 42+
 		gEntries.push({
-			host: aPermission.host,
-			domain: aPermission.host.replace(/^\./, ""),
+			host: host,
+			domain: host.replace(/^\./, ""),
+			URI: aPermission.principal && aPermission.principal.URI || null,
 			type: aPermission.type,
 			status: gCapabilityStrings[aPermission.capability] || null,
 			perm: aPermission.capability
@@ -156,7 +159,12 @@ function removeDomain()
 		gTree.treeBoxObject.rowCountChanged(min.value, -max);
 	}
 	selection.selectEventsSuppressed = false;
-	removed.forEach(function(aEntry) { gPermissionManager.remove(aEntry.host, aEntry.type); });
+	removed.forEach(function(aEntry) {
+		if(aEntry.URI) // Firefox 42+
+			gPermissionManager.remove(aEntry.URI, aEntry.type);
+		else
+			gPermissionManager.remove(aEntry.host, aEntry.type);
+	});
 	
 	if (gEntries.length > 0)
 	{
@@ -197,7 +205,14 @@ const gTreeView = {
 	mSortReversed: false,
 
 	get rowCount() { return gEntries.length; },
-	getCellText: function(aRow, aColumn) { return gEntries[aRow][aColumn.id] || ""; },
+	getCellText: function(aRow, aColumn) {
+		if(aColumn.id == "domain") {
+			var uri = gEntries[aRow].URI;
+			if(uri)
+				return uri.spec;
+		}
+		return gEntries[aRow][aColumn.id] || "";
+	},
 	isSorted: function() { return true; },
 
 	isSeparator: function(aIndex) { return false; },
@@ -234,7 +249,7 @@ const gChangeObserver = {
 			case "deleted":
 				for (var i = 0; i < gEntries.length; i++)
 				{
-					if (gEntries[i].host == permission.host)
+					if (gEntries[i].host == (permission.host || permission.principal.URI.host))
 					{
 						if (aData == "changed")
 						{
