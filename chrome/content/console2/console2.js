@@ -556,9 +556,32 @@ function onEvalTypein()
 		
 		if ("@mozilla.org/satchel/form-history;1" in Cc)
 		{ // not available for Thunderbird
-			Cc["@mozilla.org/satchel/form-history;1"].getService(Ci.nsIFormHistory2 ||
-			Ci.nsIFormHistory).addEntry(gTextBoxEval.getAttribute("autocompletesearchparam"), code);
+			try
+			{
+				Cc["@mozilla.org/satchel/form-history;1"].getService(Ci.nsIFormHistory2 ||
+				Ci.nsIFormHistory).addEntry(gTextBoxEval.getAttribute("autocompletesearchparam"), code);
+				return;
+			}
+			catch (ex) { } // See https://bugzilla.mozilla.org/show_bug.cgi?id=879118
 		}
+		try
+		{
+			var {FormHistory} = Components.utils.import("resource://gre/modules/FormHistory.jsm", {});
+			FormHistory.update(
+				{
+					op: "bump",
+					fieldname: gTextBoxEval.getAttribute("autocompletesearchparam"),
+					value: code,
+				},
+				{
+					handleCompletion: function() {},
+					handleError: function(err) {
+						Components.utils.reportError("Error adding form history entry: " + err);
+					}
+				}
+			);
+		}
+		catch (ex) { }
 	}
 }
 
