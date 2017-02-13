@@ -100,15 +100,17 @@ function addDomain(aCapability)
 	var uri = _("uri");
 	
 	var ioService = Cc["@mozilla.org/network/io-service;1"].getService(Ci.nsIIOService);
-	var host = uri.value.replace(/^\s*([\w-]*:)?/, "");
+	//var host = uri.value.replace(/^\s*([\w-]*:)?/, "");
+	var host = uri.value.replace(/^\s+|\s+$/g, "");
 	try
 	{
-		host = ioService.newURI("http://" + host, null, null).host;
-		if (!host)
+		var spec = /^[\w-]+:/.test(host) ? host : "http://" + host;
+		var permURI = ioService.newURI(spec, null, null);
+		if (!permURI.host)
 		{
 			throw new Error();
 		}
-		gPermissionManager.add(ioService.newURI("http://" + host.replace(/^\./, ""), null, null), "console2", aCapability);
+		gPermissionManager.add(permURI, "console2", aCapability);
 		
 		uri.value = "";
 		onURIInput();
