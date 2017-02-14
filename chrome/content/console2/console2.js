@@ -589,13 +589,14 @@ function loadOrDisplayResult()
 {
 	if (gCodeToEvaluate)
 	{
-		gEvaluator.contentWindow.location = "javascript: " + gCodeToEvaluate.replace(/%/g, "%25");
+		//gEvaluator.contentWindow.location = "javascript: " + gCodeToEvaluate.replace(/%/g, "%25");
+		gEvaluator.contentWindow.location = "chrome://console2/content/blank.html?#" + encodeURIComponent(gCodeToEvaluate);
 		gCodeToEvaluate = "";
 		return;
 	}
 
 	var resultRange = gEvaluator.contentDocument.createRange();
-	resultRange.selectNode(gEvaluator.contentDocument.documentElement);
+	resultRange.selectNode(gEvaluator.contentDocument.body);
 	
 	var result = resultRange.toString();
 	if (result)
