@@ -364,7 +364,7 @@ var gBlacklist = ("@mozilla.org/permissionmanager;1" in Cc)?{
 	ALLOW_DOMAIN: Ci.nsIPermissionManager.ALLOW_ACTION,
 	DENY_DOMAIN: Ci.nsIPermissionManager.DENY_ACTION,
 	// Note: http://*/ doesn't work in Firefox 54+
-	ALL_DOMAINS: Cc["@mozilla.org/network/io-service;1"].getService(Ci.nsIIOService).newURI("http://-/", null, null),
+	ALL_DOMAINS: Cc["@mozilla.org/network/io-service;1"].getService(Ci.nsIIOService).newURI("http://{{any}}/", null, null),
 
 	listen: function(aRow)
 	{

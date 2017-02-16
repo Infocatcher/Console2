@@ -104,7 +104,9 @@ function addDomain(aCapability)
 	var host = uri.value.replace(/^\s+|\s+$/g, "");
 	try
 	{
-		var spec = /^[\w-]+:/.test(host) ? host : "http://" + host;
+		var spec = host == "*"
+			? "http://{{any}}/" // See gBlacklist.ALL_DOMAINS in console2.js
+			: /^[\w-]+:/.test(host) ? host : "http://" + host;
 		var permURI = ioService.newURI(spec, null, null);
 		if (!permURI.host)
 		{
@@ -209,6 +211,8 @@ const gTreeView = {
 	get rowCount() { return gEntries.length; },
 	getCellText: function(aRow, aColumn) {
 		if(aColumn.id == "domain") {
+			if(gEntries[aRow].domain == "{{any}}")
+				return "*";
 			var uri = gEntries[aRow].URI;
 			if(uri)
 				return uri.spec;
