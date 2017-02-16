@@ -64,7 +64,7 @@
       </field>
       <field name="scrollBoxObject">
         var bo = this._scrollbox.boxObject;
-        if("nsIScrollBoxObject" in Components.interfaces)
+        if ("nsIScrollBoxObject" in Components.interfaces)
           bo instanceof Components.interfaces.nsIScrollBoxObject;
         bo;
       </field>

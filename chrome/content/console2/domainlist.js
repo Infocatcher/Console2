@@ -104,9 +104,9 @@ function addDomain(aCapability)
 	var host = uri.value.replace(/^\s+|\s+$/g, "");
 	try
 	{
-		var spec = host == "*"
-			? "http://{{any}}/" // See gBlacklist.ALL_DOMAINS in console2.js
-			: /^[\w-]+:/.test(host) ? host : "http://" + host;
+		var spec = host == "*" ?
+			"http://{{any}}/" : // See gBlacklist.ALL_DOMAINS in console2.js
+			/^[\w-]+:/.test(host) ? host : "http://" + host;
 		var permURI = ioService.newURI(spec, null, null);
 		if (!permURI.host)
 		{
@@ -164,10 +164,7 @@ function removeDomain()
 	}
 	selection.selectEventsSuppressed = false;
 	removed.forEach(function(aEntry) {
-		if(aEntry.URI) // Firefox 42+
-			gPermissionManager.remove(aEntry.URI, aEntry.type);
-		else
-			gPermissionManager.remove(aEntry.host, aEntry.type);
+		gPermissionManager.remove(aEntry.URI ? aEntry.URI : aEntry.host, aEntry.type);
 	});
 	
 	if (gEntries.length > 0)
@@ -209,13 +206,19 @@ const gTreeView = {
 	mSortReversed: false,
 
 	get rowCount() { return gEntries.length; },
-	getCellText: function(aRow, aColumn) {
-		if(aColumn.id == "domain") {
-			if(gEntries[aRow].domain == "{{any}}")
+	getCellText: function(aRow, aColumn)
+	{
+		if (aColumn.id == "domain")
+		{
+			if (gEntries[aRow].domain == "{{any}}")
+			{
 				return "*";
+			}
 			var uri = gEntries[aRow].URI;
-			if(uri)
+			if (uri)
+			{
 				return uri.spec;
+			}
 		}
 		return gEntries[aRow][aColumn.id] || "";
 	},
@@ -255,11 +258,9 @@ const gChangeObserver = {
 			case "deleted":
 				for (var i = 0; i < gEntries.length; i++)
 				{
-					if (
-						"principal" in permission
-							? gEntries[i].URI.spec == permission.principal.URI.spec
-							: gEntries[i].host == permission.host
-					)
+					if ("principal" in permission ?
+						gEntries[i].URI.spec == permission.principal.URI.spec :
+						gEntries[i].host == permission.host)
 					{
 						if (aData == "changed")
 						{

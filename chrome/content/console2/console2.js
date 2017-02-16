@@ -567,19 +567,17 @@ function onEvalTypein()
 		try
 		{
 			var {FormHistory} = Components.utils.import("resource://gre/modules/FormHistory.jsm", {});
-			FormHistory.update(
+			FormHistory.update({
+				op: "bump",
+				fieldname: gTextBoxEval.getAttribute("autocompletesearchparam"),
+				value: code,
+			}, {
+				handleCompletion: function() { },
+				handleError: function(err)
 				{
-					op: "bump",
-					fieldname: gTextBoxEval.getAttribute("autocompletesearchparam"),
-					value: code,
-				},
-				{
-					handleCompletion: function() {},
-					handleError: function(err) {
-						Components.utils.reportError("Error adding form history entry: " + err);
-					}
+					Components.utils.reportError("Error adding form history entry: " + err);
 				}
-			);
+			});
 		}
 		catch (ex) { }
 	}

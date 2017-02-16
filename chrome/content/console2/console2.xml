@@ -523,7 +523,7 @@
 			<constructor><![CDATA[
 				var x = document.getAnonymousElementByAttribute(this, "anonid", "main-box");
 				this.scrollBoxObject = x.boxObject;
-				if("nsIScrollBoxObject" in Components.interfaces)
+				if ("nsIScrollBoxObject" in Components.interfaces)
 					this.scrollBoxObject instanceof Components.interfaces.nsIScrollBoxObject;
 				this._bundle = document.getAnonymousElementByAttribute(this, "anonid", "string-bundle");
 				this.initDupeFinder();

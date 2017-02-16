@@ -3,7 +3,7 @@
 <body>
 <script type="text/javascript">
 document.body.textContent = ""; // Remove itself from results
-if(location.hash)
+if (location.hash)
 	document.body.textContent = "" + eval(decodeURIComponent(location.hash.substr(1)));
 </script>
 </body>
