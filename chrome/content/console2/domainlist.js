@@ -73,8 +73,12 @@ function onTreeSelect()
 
 function onTreeDblClick()
 {
-	_("uri").value = gEntries[gTree.view.selection.currentIndex].host;
-	onURIInput();
+	var entry = gEntries[gTree.view.selection.currentIndex] || null;
+	if (entry)
+	{
+		_("uri").value = entry.host;
+		onURIInput();
+	}
 }
 
 function sortByColumn(aColumn)
