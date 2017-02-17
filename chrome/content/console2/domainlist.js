@@ -76,7 +76,7 @@ function onTreeDblClick()
 	var entry = gEntries[gTree.view.selection.currentIndex] || null;
 	if (entry)
 	{
-		_("uri").value = entry.host;
+		_("uri").value = entry.URI ? entry.URI.spec : entry.host;
 		onURIInput();
 	}
 }
