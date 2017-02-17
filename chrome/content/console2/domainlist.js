@@ -205,6 +205,13 @@ const gTreeView = {
 	mSortColumn: "",
 	mSortReversed: false,
 
+	QueryInterface: function(iid)
+	{
+		if (iid.equals(Ci.nsISupports) || iid.equals(Ci.nsITreeView))
+			return this;
+		throw Cr.NS_ERROR_NO_INTERFACE;
+	},
+
 	get rowCount() { return gEntries.length; },
 	getCellText: function(aRow, aColumn)
 	{
