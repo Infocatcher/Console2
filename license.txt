@@ -24,6 +24,7 @@ The following license applies to all files:
  * * All contributors to the Toolkit 1.8 JavaScript Console
  * * Philip Chee <philip.chee@gmail.com>
  * * mcdavis for better richlistbox themability
+ * * Infocatcher <https://github.com/Infocatcher>
  *   &
  * - BabelZilla translators:
  * * MatrixIsAllOver (Italian)
