@@ -10,6 +10,11 @@
 		{
 			toOpenWindowByType("global:console", "chrome://console2/content/console2.xul");
 		}
+		function console2ToggleSidebar()
+		{
+			SidebarShowHide();
+			document.getElementById("urn:sidebar:panel:viewConsole2Sidebar").doCommand();
+		}
 
 		function console2Init(){
 			var sss = Components.classes["@mozilla.org/content/style-sheet-service;1"]
@@ -26,11 +31,11 @@
 	<command id="Tasks:ErrorConsole" oncommand="toErrorConsole();"/>
 	
 	<broadcasterset id="mainBroadcasterSet">
-		<broadcaster id="viewConsole2Sidebar" autoCheck="false" label="&console.title;" type="checkbox" group="sidebar" sidebarurl="chrome://console2/content/console2.xul" oncommand="toggleSidebar('viewConsole2Sidebar');"/>
+		<broadcaster id="viewConsole2Sidebar" autoCheck="false" label="&console.title;" type="checkbox" group="sidebar" sidebarurl="chrome://console2/content/console2.xul" oncommand="console2ToggleSidebar();"/>
 	</broadcasterset>
 	
 	<toolbarpalette id="BrowserToolbarPalette"> <!-- Firefox (toolbar) -->
-		<toolbarbutton id="console2-button" class="toolbarbutton-1 chromeclass-toolbar-additional" label="&console.title;" tooltiptext="&console.tooltiptext;" oncommand="if (event.shiftKey) toggleSidebar('viewConsole2Sidebar'); else toErrorConsole();" onclick="if (event.button == 1) toggleSidebar('viewConsole2Sidebar');"/>
+		<toolbarbutton id="console2-button" class="toolbarbutton-1 chromeclass-toolbar-additional" label="&console.title;" tooltiptext="&console.tooltiptext;" oncommand="if (event.shiftKey) console2ToggleSidebar(); else toErrorConsole();" onclick="if (event.button == 1) console2ToggleSidebar();"/>
 	</toolbarpalette>
 	
 	<toolbarpalette id="MailToolbarPalette"> <!-- Thunderbird (toolbar) -->
