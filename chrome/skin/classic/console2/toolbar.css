@@ -35,3 +35,8 @@ toolbar[iconsize="small"] #console2-button:hover:not([disabled="true"]) > image 
 	width: 16px;
 	height: 16px;
 }
+/* Firefox 29+, fix for #nav-bar */
+toolbar[iconsize="small"] > .customization-target #console2-button > image {
+	width: auto !important;
+	height: auto !important;
+}
