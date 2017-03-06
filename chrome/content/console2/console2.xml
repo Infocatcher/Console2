@@ -753,7 +753,19 @@
 					var url = this.getAttribute("href");
 					url = url.substring(url.lastIndexOf(" ") + 1);
 					var line = this.getAttribute("line");
-					openDialog("chrome://global/content/viewSource.xul", "_blank", "all,dialog=no", url, null, null, line);
+					var appInfo = Components.classes["@mozilla.org/xre/app-info;1"]
+						.getService(Components.interfaces.nsIXULAppInfo);
+					if (parseFloat(appInfo.platformVersion) >= 42)
+					{
+						openDialog("chrome://global/content/viewSource.xul", "_blank", "all,dialog=no", {
+							URL: url,
+							lineNumber: line
+						});
+					}
+					else
+					{
+						openDialog("chrome://global/content/viewSource.xul", "_blank", "all,dialog=no", url, null, null, line);
+					}
 				}
 			]]></handler>
 		</handlers>
