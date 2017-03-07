@@ -739,7 +739,19 @@
 					var line = (context.gViewSourceUtils.openInExternalEditor.length == 5) ?
 								parseInt(this.getAttribute("line") || 0) :
 								undefined;
-					context.gViewSourceUtils.openInExternalEditor(url, null, null, line);
+					var appInfo = Components.classes["@mozilla.org/xre/app-info;1"]
+						.getService(Components.interfaces.nsIXULAppInfo);
+					if (parseFloat(appInfo.platformVersion) >= 42)
+					{
+						context.gViewSourceUtils.openInExternalEditor({
+							URL: url,
+							lineNumber: line
+						});
+					}
+					else
+					{
+						context.gViewSourceUtils.openInExternalEditor(url, null, null, line);
+					}
 					
 					return true;
 				]]></body>
