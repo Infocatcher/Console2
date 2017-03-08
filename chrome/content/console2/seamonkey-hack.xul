@@ -9,9 +9,14 @@
 		// If we have an EM, we have toolkit, thus we have the Customize Toolbar functions.
 		function hasToolkit()
 		{
-			return "@mozilla.org/extensions/manager;1" in Components.classes ||
-				"nsIFormHistory" in Components.interfaces ||
-				"nsIFormHistory2" in Components.interfaces;
+			//return "@mozilla.org/extensions/manager;1" in Components.classes ||
+			//	"nsIFormHistory" in Components.interfaces ||
+			//	"nsIFormHistory2" in Components.interfaces;
+			var appInfo = Components.classes["@mozilla.org/xre/app-info;1"]
+				.getService(Components.interfaces.nsIXULAppInfo);
+			var vc = Components.classes["@mozilla.org/xpcom/version-comparator;1"]
+				.getService(Components.interfaces.nsIVersionComparator);
+			return vc.compare(appInfo.platformVersion, "1.9.1") >= 0; // SeaMonkey 2.0+
 		}
 
 		function initToolbars()
