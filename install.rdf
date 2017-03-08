@@ -9,6 +9,7 @@
 		
 		<type>2</type><!-- extension -->
 		<unpack>false</unpack>
+		<multiprocessCompatible>true</multiprocessCompatible>
 		
 		<description>The next generation error console.</description>
 		<iconURL>chrome://console2/skin/import/Error.png</iconURL>
