@@ -390,6 +390,9 @@
 				<parameter name="aChar"/>
 				<parameter name="aCol"/>
 				<body><![CDATA[
+					if ("repeat" in String.prototype) // Firefox 24+
+						return aChar.repeat(aCol);
+
 					var str = aChar;
 					
 					for (var i = aChar.length; i < aCol; i += i)
