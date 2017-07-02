@@ -154,7 +154,14 @@ function removeDomain()
   
   var selection = gTree.view.selection;
   var currentIndex = selection.currentIndex
-  selection.selectedEventsSuppressed = true;
+  try
+  {
+    selection.selectedEventsSuppressed = true;
+  }
+  catch (ex)
+  {
+    // Firefox 56+: NS_ERROR_XPC_CANT_MODIFY_PROP_ON_WN: Cannot modify properties of a WrappedNative
+  }
 
   var removed = [];
   for (var i = selection.getRangeCount() - 1; i >= 0; i--)
