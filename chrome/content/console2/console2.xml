@@ -19,7 +19,7 @@
 			<field name="mListeners" readonly="true">[]</field>
 			<field name="mMsgQueue" readonly="true">[]</field>
 			<field name="mDupeCache">null</field>
-			<field name="mPrefs" readonly="true">Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch2);</field>
+			<field name="mPrefs" readonly="true">Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch2 || Components.interfaces.nsIPrefBranch);</field>
 			<field name="_limit">1000</field>
 
 			<property name="reversed" onget="return this.sortOrder == 'reverse';" readonly="true"/>
@@ -702,7 +702,7 @@
 				document.getAnonymousNodes(this)[0].setAttribute("value", this.getAttribute("href").replace(/^(.{253})(?=.{4,}).*/, "$1..."));
 			]]></constructor>
 
-			<field name="mPrefs" readonly="true">Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch2);</field>
+			<field name="mPrefs" readonly="true">Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch2 || Components.interfaces.nsIPrefBranch);</field>
 
 			<method name="onDragStart">
 				<parameter name="aEvent"/>

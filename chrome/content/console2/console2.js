@@ -188,7 +188,7 @@ function toggleBooleanPref(aPref, aInit)
 }
 
 /*const*/ var gBooleanPrefObserver = {
-	mPrefBranch: Cc["@mozilla.org/preferences-service;1"].getService(Ci.nsIPrefBranch2),
+	mPrefBranch: Cc["@mozilla.org/preferences-service;1"].getService(Ci.nsIPrefBranch2 || Ci.nsIPrefBranch),
 	_prefs: ["javascript.options.strict", "layout.css.report_errors", "dom.report_all_js_exceptions"],
 
 	observe: function(aSubject, aTopic, aData)
